@@ -58,6 +58,8 @@ plainwhite:
 #header_pages:
 # - about.md
 
+baseurl: "/blog"
+
 # Build settings
 theme: plainwhite
 
