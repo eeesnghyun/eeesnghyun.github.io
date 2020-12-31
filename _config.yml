@@ -16,6 +16,11 @@ plainwhite:
   tagline: Developer. Designer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
+  navigation:
+    - title: My Work
+      url: "/my-work"
+    - title: Resume
+      url: "/resume"
   search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
@@ -47,11 +52,6 @@ plainwhite:
     #   instance: example.com
     # - username: jekyll2
     #   instance: example.com
-  navigation:
-    - title: My Work
-      url: "/my-work"
-    - title: Resume
-      url: "/resume"
       
 # If you want to link only specific pages in your header, uncomment
 # this and add the path to the pages in order as they should show up
