@@ -1,5 +1,5 @@
 *.gem
-.bak
+*.bak
 .bundle
 .sass-cache
 _site
