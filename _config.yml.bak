@@ -17,7 +17,7 @@ plainwhite:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
-    - title: About me
+    - title: About
       url: "/about"
     - title: Resume
       url: "/resume"
