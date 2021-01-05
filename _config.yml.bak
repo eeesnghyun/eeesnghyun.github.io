@@ -20,7 +20,7 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
     - title: About
-      url: "/about"
+      url: "about"
     - title: Resume
       url: "resume"
   #search: true # set to true to enable searchbar

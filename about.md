@@ -18,10 +18,21 @@ title: About
 
 <br>
 
-## test3-sk
+## test3-k
 
-* test1
-* test2
+B
+
+![Generic badge](https://img.shields.io/badge/-java-80c1ff?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-spring framwork-80c1ff?style=for-the-badge&logo=Spring&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-spring security-80c1ff?style=for-the-badge&logo=spring&logoColor=black)
+
+F
+
+![Generic badge](https://img.shields.io/badge/-HTML-cce6ff?style=for-the-badge&logo=HTML5&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-CSS-cce6ff?style=for-the-badge&logo=CSS3&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-JavaScript-cce6ff?style=for-the-badge&logo=JavaScript&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=white)
+
+DA
+
+![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=for-the-badge&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-MySQL(MARIADA)-FA5C5C?style=for-the-badge&logo=mysql&logoColor=white)
+
+
 
 <br>
 

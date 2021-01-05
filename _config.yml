@@ -14,7 +14,7 @@ baseurl: "/gitweb-test"
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
+  name: ADMIN
   tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
