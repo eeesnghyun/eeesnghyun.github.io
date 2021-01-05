@@ -18,6 +18,8 @@ title: About
 
 <br>
 
+
+
 ## test3-k
 
 B
@@ -31,6 +33,10 @@ F
 DA
 
 ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=for-the-badge&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-MySQL(MARIADA)-FA5C5C?style=for-the-badge&logo=mysql&logoColor=white)
+
+SCM & CI/CD
+
+![Generic badge](https://img.shields.io/badge/-SVN-654FF0?style=for-the-badge&logo=svn&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
 
 
 
