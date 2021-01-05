@@ -14,8 +14,14 @@ $leftWidth: 220px;
   box-sizing: border-box;
 }
 
+@font-face {
+	font-family:	'GmarketSansTTFLight';
+	src:	url('../font/GmarketSansTTFLight.ttf');
+}
+
 body {
-  font-family: "Raleway", sans-serif;
+  /*font-family: "Raleway", sans-serif;*/
+  font-family: "GmarketSansTTFLight", sans-serif !important;
   font-size: 16px;
   line-height: 1.2em;
   margin: 0;
@@ -78,7 +84,7 @@ main {
   .about {
     display: flex;
     height: 100vh;
-    /*padding-bottom: 15vh;*/
+    padding-bottom: 15vh;
     @media screen and (max-width: $mobileW) {
       height: auto;
       padding: 5vh 30px;
@@ -164,7 +170,8 @@ main {
 
     a {
       display: block;
-      font-family: 'Merriweather';
+      /*font-family: 'Merriweather';*/
+      font-family: 'GmarketSansTTFLight';
       text-align: center;
       padding: 1rem 0;
       text-decoration: none;
@@ -243,7 +250,8 @@ main {
   padding-left: 30px;
 }
 .post {
-  font-family: "Merriweather", sans-serif;
+  /*font-family: "Merriweather", sans-serif;*/
+  font-family: "GmarketSansTTFLight", sans-serif;
   font-weight: 300;
   color: #222;
   line-height: 1.9em;
@@ -264,7 +272,8 @@ main {
   h4,
   h5,
   h6 {
-    font-family: Raleway, sans-serif;
+    /*font-family: Raleway, sans-serif;*/
+    font-family: 'GmarketSansTTFLight', sans-serif;
   }
 }
 .posts-labelgroup {
