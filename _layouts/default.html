@@ -118,7 +118,7 @@
       			<nav class="navigation about-footer {{condensed_class}}">
         			<ul>
           				{% for link in site.plainwhite.navigation %}
-          					<li><a href="{{ link.url }}">{{ link.title }}</a></li>
+          					<li><a href="{{site.baseurl }}/{{ link.url }}">{{ link.title }}</a></li>
           				{% endfor %}
         			</ul>
       			</nav>
