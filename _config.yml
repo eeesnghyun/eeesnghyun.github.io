@@ -8,7 +8,7 @@ description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 
-#baseurl: "/gitweb-test"
+baseurl: "/gitweb-test"
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -21,9 +21,9 @@ plainwhite:
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
     - title: About
-      url: "/about"
+      url: "about"
     - title: Resume
-      url: "/resume"
+      url: "resume"
   #search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
