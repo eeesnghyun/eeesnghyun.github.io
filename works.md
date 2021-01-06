@@ -2,11 +2,11 @@
 layout: page
 title: project
 ---
-## 테스트p
+## Works
 
 <br>
 
-> test1
+> 테스트1
 
 ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=flat&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=flat&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=flat&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=flat&logo=oracle&logoColor=white)  
 
@@ -15,7 +15,7 @@ title: project
 
 <br>
 
-> test2
+> 테스트2
 
 ![Generic badge](https://img.shields.io/badge/-JAVA-80c1ff?style=flat&logo=java&logoColor=black)  
 
@@ -24,7 +24,7 @@ title: project
 
 <br>
 
-> [test3](https://github.com/eeesnghyun/PLANM)
+> [테스트3](https://github.com/eeesnghyun/PLANM)
 
 ![Generic badge](https://img.shields.io/badge/-HTML-cce6ff?style=flat&logo=HTML5&logoColor=white)  
 

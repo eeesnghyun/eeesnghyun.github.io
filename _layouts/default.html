@@ -26,17 +26,31 @@
 	      		
 	     		<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>
 			</div>
+			
+			<p class="tagline" style="font-size: 16px;">{{ site.author }}</p>
+							
 	      	{%- if site.plainwhite.tagline -%}
 	      		<p class="tagline">{{ site.plainwhite.tagline }}</p>
 	      	{%- endif -%}
+	      	
+	      	<table class="about-table">
+	      		<tr>
+	      			<th><i class="fas fa-home"></i></th>	
+	      			<td>{{ site.inhabit }}</td>
+	      		</tr>
+	      		<tr>
+	      			<th><i class="fas fa-envelope-square"></i></th>	
+	      			<td>{{ site.email }}</td>
+	      		</tr>
+	      	</table>
 		</div>
       
       	{% capture footer %}
       		{%- if site.plainwhite.social_links != '' -%}
       			<ul class="social about-footer {{condensed_class}}">
         			<!-- blog -->
-        			<a href="https://shxrecord.tistory.com/" target="_blank" style="margin-right: 0.2rem;">
-          				<li><i class="fas fa-tag" style="font-size: 30px; margin-top: 5px"></i></li>
+        			<a href="https://shxrecord.tistory.com/" target="_blank">
+          				<li><i class="fas fa-link" style="font-size: 28px; margin-top: 5px"></i></li>
         			</a>
         			
         			{%- if site.plainwhite.social_links.github -%}

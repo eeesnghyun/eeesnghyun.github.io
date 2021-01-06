@@ -1,6 +1,7 @@
 title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+author: Seung-Hyun Lee
+email: szhyun2002@gmail.com
+inhabit: Seoul
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -8,7 +9,6 @@ description: > # this means to ignore newlines until "show_exerpts:"
 show_excerpts: true # set to true to show excerpts on the homepage
 
 baseurl: "/gitweb-test"
-encoding: utf-8
 
 # Minima date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
@@ -16,13 +16,13 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: ADMIN
-  tagline: Developer
+  #tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
     - title: About
       url: "about"
-    - title: Res
+    - title: Works
       url: "project"
   #search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
@@ -47,7 +47,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    email: szhyun2002@gmail.com
+    #email: szhyun2002@gmail.com
 
     # Mastodon instances
     # mastodon:

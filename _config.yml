@@ -1,6 +1,7 @@
 title: Your awesome title
-author: GitHub User
-email: your-email@domain.com
+author: Seung-Hyun Lee
+email: szhyun2002@gmail.com
+inhabit: Seoul
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -15,14 +16,14 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: ADMIN
-  tagline: Developer
+  #tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
     - title: About
       url: "about"
-    - title: Res
-      url: "project"
+    - title: Works
+      url: "works"
   #search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
@@ -46,7 +47,7 @@ plainwhite:
     #soundcloud: jekyll
     #telegram: jekyll
     #gitlab: jekyll
-    email: szhyun2002@gmail.com
+    #email: szhyun2002@gmail.com
 
     # Mastodon instances
     # mastodon:
