@@ -34,6 +34,11 @@
       	{% capture footer %}
       		{%- if site.plainwhite.social_links != '' -%}
       			<ul class="social about-footer {{condensed_class}}">
+        			<!-- blog -->
+        			<a href="https://shxrecord.tistory.com/" target="_blank" style="margin-right: 0.2rem;">
+          				<li><i class="fas fa-tag" style="font-size: 30px; margin-top: 5px"></i></li>
+        			</a>
+        			
         			{%- if site.plainwhite.social_links.github -%}
         				<a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
           					<li><i class="icon-github-circled"></i></li>
@@ -108,9 +113,9 @@
         			
         			{%- if site.plainwhite.social_links.email -%}
         				<a href="mailto:{{ site.plainwhite.social_links.email }}" target="_blank">
-          					<li><i class="icon-mail-alt"></i></li>
+          					<li><i class="icon-mail-alt" style="font-size: 32px;"></i></li>
         				</a>
-        			{%- endif -%}        			
+        			{%- endif -%}        			        			
       			</ul>
       		{%- endif -%}
       		
