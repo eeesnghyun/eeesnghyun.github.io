@@ -32,7 +32,7 @@ F
 
 DA
 
-![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=for-the-badge&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-MySQL(MARIADA)-FA5C5C?style=for-the-badge&logo=mysql&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=for-the-badge&logo=oracle&logoColor=white)  ![Generic badge](https://img.shields.io/badge/-MySQL(MARIA DB)-FA5C5C?style=for-the-badge&logo=mysql&logoColor=white)
 
 SCM & CI/CD
 

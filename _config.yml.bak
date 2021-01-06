@@ -14,7 +14,7 @@ baseurl: "/gitweb-test"
 sass:
   sass_dir: _sass
 plainwhite:
-  name: Adam Denisov
+  name: ADMIN
   tagline: Developer
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
@@ -22,7 +22,7 @@ plainwhite:
     - title: About
       url: "about"
     - title: Resume
-      url: "resume"
+      url: "project"
   #search: true # set to true to enable searchbar
   dark_mode: true # set to true to add dark mode toggle
   portfolio_image: "assets/portfolio.png" # the path from the base directory of the site to the image to display (no / at the start)
