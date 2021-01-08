@@ -65,4 +65,6 @@ plainwhite:
 
 plugins:
   - jekyll-seo-tag
+  - jemoji
 #  - jekyll-feed
+

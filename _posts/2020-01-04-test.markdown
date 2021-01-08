@@ -10,4 +10,4 @@ GitHub에서 무료로 웹 서비스 호스팅을 사용할 수 있다는 것을
 
 ------
 
-###### GitHub Pages
+## GitHub Pages
