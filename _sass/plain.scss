@@ -350,6 +350,10 @@ footer {
  * Custom CSS
  **********************************************************************/
 
+p {
+	img { vertical-align: middle; }
+}
+
 .profile-img {
 	-webkit-border-radius: 100px;
     -moz-border-radius: 100px;
@@ -462,3 +466,4 @@ blockquote {
     width: 150px;
     margin: 0px auto;
 }
+
