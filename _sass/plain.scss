@@ -350,6 +350,11 @@ footer {
  * Custom CSS
  **********************************************************************/
 
+.profile-img {
+	-webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+}
+
 .about {
 	.about-header {
 		.about-table {
