@@ -130,6 +130,14 @@ GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io
 
 <br>
 
+
+
+참고자료
+
+* [GitHub Pages](https://pages.github.com/)
+* [Jekyll](http://jekyllrb-ko.github.io/docs/)
+* [생활코딩](https://opentutorials.org/course/3084/18891)
+
 ------
 
 다음장에서 본격적인 커스터마이징 작업이 시작됩니다.
