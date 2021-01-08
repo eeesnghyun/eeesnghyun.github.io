@@ -346,6 +346,10 @@ footer {
   }
 }
 
+/**********************************************************************
+ * Custom CSS
+ **********************************************************************/
+
 .about {
 	.about-header {
 		.about-table {
@@ -362,6 +366,25 @@ footer {
 	}
 }	
 
+.dark {
+	.about {
+		.about-header {
+			.about-table {
+				th, td {
+			    	padding: 8px 13px;
+			    	border: none;
+			    	border-bottom: 1px solid #eeeeee;
+			  	}
+			  	th {
+			  		text-align: center;
+			  		border-top-left-radius: 15px;
+			  		border: 1px solid #fff;
+			  	}
+			}
+		}
+	}	
+}
+
 blockquote {
 	margin: 0;
     padding: 2px 10px;
@@ -375,4 +398,62 @@ blockquote {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
+}
+
+blockquote {
+	h1,h2,h3,h4,h5,h6 {
+		margin: 0.2em 0;
+	}
+}
+
+.post-div {
+	@media screen and (max-width: $smallMobileW) {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @media screen and (max-width: $mobileW) {
+    padding: 0 !important;
+    margin-top: 0;
+  }
+}
+
+.post-top {
+	text-align: center;
+}
+.post-top {
+	.post-content {
+		@media screen and (min-width: $mobileW + 1) {
+      		width: 100%;
+      		max-width: calc(100% - #{$leftWidth});
+      		margin: 0px auto;      	
+    	}
+	}
+}
+
+.post-main {}
+.post-content {
+	background-color: #fff;
+}
+.post-main {
+	.post-content {
+		@media screen and (min-width: $mobileW + 1) {
+      		width: 100%;
+      		max-width: calc(100% - #{$leftWidth});
+      		margin: 0px auto;      	
+    	}
+	}
+	.post-list {
+		list-style-type: none;
+		margin: 20px 80px;
+		padding-bottom: 20px;
+		border-top: 1px solid #2E4DA7;
+		border-bottom: 1px solid #2E4DA7;
+	}
+}
+
+.div-hr {
+	padding-bottom: 40px;
+    border-bottom: 1px solid #cecece;
+    width: 150px;
+    margin: 0px auto;
 }

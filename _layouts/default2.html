@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="{{ site.plainwhite.html_lang }}">
+<head>
+  {%- include head.html -%}
+</head>
+
+{%- if site.plainwhite.condensed_mobile contains page.layout -%}
+{% assign condensed_class = "condensed" %}
+{% else %}
+{% assign condensed_class = "" %}
+{%- endif -%}
+<style>
+body { background-color: #eff3fd99; }
+</style>
+<body>
+	<div class="post-div">
+	   	<main class="post-top">	      	
+	    	<section class="post-content">
+		    	<a href="{{ "/" | relative_url}}">
+			       	{% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
+			       		<img class="light" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       		<img class="dark" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       	{% else %}
+			       		<img src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       	{% endif %}
+		    	</a>
+		    		
+		    	<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>		    	
+		    	<span style="font-size: 16px;">{{ site.author }}</span>
+		    	
+		    	<div class="div-hr"></div>
+	    	</section>
+		</main>	 	   	
+	   	
+	   	<main class="post-main">	   		
+	   		<section class="post-content">
+	      		{{ content }}
+	    	</section>
+	    
+	    	<footer class="{{condensed_class}}">
+	      		{{ footer }}
+	    	</footer>   		
+		</main>
+	  
+	  	<!-- Post list -->
+	   <main class="post-main">
+	  	 	<div class="post-content">
+			 	{%- if site.posts.size > 0 -%}
+					<ul class="post-list">		    	
+						{%- for post in site.posts -%}
+							<li>
+						    	{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
+							      	<a class="post-link" href="{{ post.url | relative_url }}">
+							       		<h2 class="post-title">{{ post.title | escape }}</h2>
+							      	</a>
+						        	
+							      	<div class="post-meta">
+							       		<div class="post-date">
+							          		<i class="icon-calendar"></i>{{ post.date | date: date_format }}						       		
+							       		</div>
+							          		
+							          	{%- if post.categories.size > 0-%}
+								       		<ul class="post-categories">
+								           	{%- for tag in post.categories -%}
+								           		<li>{{ tag }}</li>
+								           	{%- endfor -%}
+								          	</ul>
+							          	{%- endif -%}
+							     	</div>				        
+							</li>
+						{%- endfor -%}
+					</ul>			
+				{%- endif -%} 
+			</div>   
+		</main>
+	</div>
+  
+  	{% if site.plainwhite.dark_mode %}
+  		<script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
+  	{% endif %}
+
+  	{%- if site.plainwhite.analytics_id -%}
+  		<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.plainwhite.analytics_id }}"></script>
+  		<script>
+    		window.dataLayer = window.dataLayer || [];
+    		function gtag() { dataLayer.push(arguments); }
+    		gtag('js', new Date());
+    		gtag('config', '{{ site.plainwhite.analytics_id }}');
+  		</script>
+  	{%- endif -%}
+
+  	{% if site.plainwhite.search %}
+  		<script src="{{ "/assets/js/simple-jekyll-search.min.js" | relative_url }}"></script>
+  		<script src="{{ "/assets/js/search.js" | relative_url }}"></script>
+  	{% endif %}
+</body>
+</html>
