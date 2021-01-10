@@ -252,7 +252,7 @@ main {
 .post {
   /*font-family: "Merriweather", sans-serif;*/
   font-family: "GmarketSansTTFLight", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: #222;
   line-height: 1.9em;
   /*
@@ -263,6 +263,7 @@ main {
   a {
     color: $linkColor;
     text-decoration: none;
+    font-weight: bold;
     transition: border-bottom 0.4s;
     &:hover {
       border-bottom: 0.5px solid $linkColor;
@@ -353,9 +354,8 @@ footer {
  * Custom CSS
  **********************************************************************/
 
-p {
-	img { vertical-align: middle; }
-}
+p img { vertical-align: middle; }
+li img { vertical-align: middle; }
 
 .profile-img {
 	-webkit-border-radius: 100px;
@@ -431,6 +431,7 @@ blockquote {
 
 .post-top {
 	text-align: center;
+	margin-top: 20px;
 }
 .post-top {
 	.post-content {

@@ -12,17 +12,13 @@ GitHub에서 무료로 웹 서비스 호스팅을 사용할 수 있다는 것을
 
 ## GitHub Pages
 
-GitHub에서는 GitHub Pages라는 기능을 통해 홈페이지를 운영할 수 있는 웹호스팅 서비스를 제공해준다.
+GitHub에서는 GitHub Pages라는 기능을 통해 홈페이지를 운영할 수 있는 웹호스팅 서비스를 제공해줍니다.
 
-GitHub Pages는 정적 페이지만 호스팅이 가능하다. 하지만 무료라는 점과 Github Pages에서 직접 제공하는 **Jekyll**에 다양한 테마들이 오픈소스로 공유되어 있어 커스텀이 편리하다. 이러한 이유로 개발자들에게는 개인 포스팅을 위한 블로그 또는 포트폴리오로서 널리 활용되고 있다.
+GitHub Pages는 정적 페이지만 호스팅이 가능합니다. 하지만 무료라는 점과 Github Pages에서 직접 제공하는 **Jekyll**에 다양한 테마들이 오픈소스로 공유되어 있어 커스텀이 편리합니다. 이러한 이유로 개발자들에게는 개인 포스팅을 위한 블로그 또는 포트폴리오로서 널리 활용되고 있습니다.
 
+GitHub Pages는 내부적으로 **Jekyll**에 의해 작동됩니다.  Jekyll은 **Ruby**라는 언어로 만들어져 있고, Jekyll 사용을 위해서는 **Markdown**의 문법도 알아두어야 하기 때문에 Jekyll, Ruby, Markdown에 대해 조금은 알고 넘어가보려 합니다.
 
-
-GitHub Pages는 내부적으로 **Jekyll**에 의해 작동된다.  Jekyll은 **Ruby**라는 언어로 만들어져 있고, Jekyll 사용을 위해서는 **Markdown**의 문법도 알아두어야 하기 때문에 Jekyll, Ruby, Markdown에 대해 조금은 알고 넘어가보려 한다.
-
-
-
-참고로 GitHub Pages의 호스팅 도메인은 **username.github.io**로 접속이 가능하다.(기본 도메인)
+참고로 GitHub Pages의 호스팅 도메인은 **username.github.io**로 접속이 가능합니다.(기본 도메인)
 
 ![Generic badge](https://img.shields.io/badge/-username-2E4DA7?style=flat) : GitHub 닉네임
 
@@ -30,18 +26,20 @@ GitHub Pages는 내부적으로 **Jekyll**에 의해 작동된다.  Jekyll은 **
 
 >  Jekyll
 
-Jekyll은 정적 사이트 생성기로 마크업 언어(HTML, XML, Markdown)로 작성된 텍스트를 사용해 웹 사이트를 생성한다.
+Jekyll은 정적 사이트 생성기로 마크업 언어(HTML, XML, Markdown)로 작성된 텍스트를 사용해 웹 사이트를 생성합니다.
 
-Jekyll의 디렉토리 구조는 다음과 같다. 
+Jekyll의 디렉토리 구조는 다음과 같습니다. 
 
-* config.yml : 이 파일은 Jekyll 사이트 설정 옵션을 정의하는 파일. 설정 정보는 변수로 구분되어 저장하며, 페이지 어디서든 호출해 사용할 수 있다.
-* _includes : header.jsp, footer.jsp를 나누어 사용하듯 페이지 재사용을 위한 템플릿 파일이 위치한 폴더.(Spring tiles와 같은 개념?)
-* _layouts : 말 그대로 페이지 레이아웃을 담당하는 파일이 위치한 폴더.
-* _posts : 마크다운 형식의 글이 위치한 폴더. 파일명의 포맷을 YYYY-MM-DD-TITLE.markdown과 같이 한다.
-* _sass : css 구성 파일을 보관하는 폴더. xxx.scss 파일은 빌드되면서 xxx.css로 변환된다.
-* _site : 빌드된 최종 파일들이 위치하는 폴더. 수정해도 의미가 없는 파일들이다.
+* _config.yml : 이 파일은 Jekyll 사이트 설정 옵션을 정의하는 파일입니다. 설정 정보는 변수로 구분되어 저장하며, 페이지 어디서든 호출해 사용할 수 있습니다.
+* _includes : header.jsp, footer.jsp를 나누어 사용하듯 페이지 재사용을 위한 템플릿 파일이 위치한 폴더입니다.(Spring tiles와 같은 개념?)
+* _layouts : 말 그대로 페이지 레이아웃을 담당하는 파일이 위치한 폴더입니다.
+* _posts : 마크다운 형식의 글이 위치한 폴더로 파일명의 포맷을 YYYY-MM-DD-TITLE.markdown과 같이 합니다.
+* _sass : css 구성 파일을 보관하는 폴더입니다. xxx.scss 파일은 빌드되면서 xxx.css로 변환됩니다.
+* _site : 빌드된 최종 파일들이 위치하는 폴더로 이 폴더의 파일은 수정해도 의미가 없습니다.(빌드시 다시 변경 되기 때문에)
 
-구조를 이해하고 있으면 이후에 Jekyll의 다양한 테마를 커스터마이징 하는데 도움이 된다. 사용해본바로 테마에 따라 구조는 조금씩 다른 경우도 있어서 가장 기본적인 파일/폴더만 정리하였다.
+구조를 이해하고 있으면 이후에 Jekyll의 다양한 테마를 커스터마이징 하는데 분명 도움이 될 것 입니다.
+
+사용해본바로 테마에 따라 구조는 조금씩 다른 경우도 있어서 가장 기본적인 파일/폴더만 정리하였습니다.
 
 ![](/assets/img/post1/post1_img1.png)
 
@@ -49,11 +47,9 @@ Jekyll의 디렉토리 구조는 다음과 같다.
 
 > Ruby
 
-Ruby는 C, Java와 마찬가지로 프로그래밍 언어 중 하나이다. Ruby는 객체 지향 언어로 원시 자료형이 존재하지 않는다. 모든 것이 객체인 순수 객체 지향 언어이다.
+Ruby는 C, Java와 마찬가지로 프로그래밍 언어 중 하나입니다. Ruby는 객체 지향 언어로 원시 자료형이 존재하지 않습니다. 모든 것이 객체인 순수 객체 지향 언어입니다.
 
-
-
-Jekyll은 Ruby라는 언어로 작성된 프레임워크이다.
+Jekyll은 Ruby라는 언어로 작성된 프레임워크입니다.
 
 (Ruby 문법을 몰라도 사이트를 생성하는데 어려움이 없었기 때문에 Ruby는 이런 거구나 정도만 이해하고 넘어가시면 될 것 같습니다)
 
@@ -61,21 +57,24 @@ Jekyll은 Ruby라는 언어로 작성된 프레임워크이다.
 
 > Markdown
 
-Markdown은 마크업 언어(*태그 등을 이용하여 문서나 데이터의 구조를 명기하는 언어)의 하나로서 문서를 간결하고 자유롭게 작성할 수 있다.
+Markdown은 마크업 언어(*태그 등을 이용하여 문서나 데이터의 구조를 명기하는 언어)의 하나로서 문서를 간결하고 자유롭게 작성할 수 있습니다. 또 문법이 복잡하지 않기 때문에 배우기 쉽고 직관적입니다.
 
-문법이 복잡하지 않기 때문에 배우기 쉽고 직관적이다.
-
-
-
-Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있다.
+Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있습니다.
 
 <br>
 
 ## Jekyll 테마 적용하기
 
-나는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했다. [**여기**](http://jekyllthemes.org/)에서 다양한 테마를 구경할 수 있었고 선택한 테마는 [**이것**](http://jekyllthemes.org/themes/PlainWhite-Jekyll/)이다.
+저는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했습니다. [**여기**](http://jekyllthemes.org/)에서 다양한 테마를 구경할 수 있었고 두 가지 정도의 기준을 세워 테마를 골랐습니다.
 
-아래 순서를 따라 테마를 적용해보자.
+1. 복잡해보이지 않아야 함(직관적)
+2. 심플한 디자인
+
+그리고 선택한 테마는 [**이것**](http://jekyllthemes.org/themes/PlainWhite-Jekyll/)입니다.
+
+<br>
+
+테마를 적용하는 방법은 다음과 같습니다.
 
 1) **Homepage** 클릭
 
@@ -99,13 +98,11 @@ Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있다.
 
 4-1) **Settings - Repository name** 변경
 
-앞서 GitHub Pages에서 기본으로 제공하는 도메인은 username.github.io라고 하였다.
+앞서 GitHub Pages에서 기본으로 제공하는 도메인은 username.github.io라고 했습니다.
 
-아래와 같이 저장소 이름을 변경하면 [https://eeesnghyun.github.io](https://eeesnghyun.github.io) 접속시 fork 받은 소스 루트에 있는 index.md(또는 index.html) 파일이 로드된다. 이것이 저장소 이름을 username.github.io로 변경하는 이유이다.
+아래와 같이 저장소 이름을 변경하면 [https://eeesnghyun.github.io](https://eeesnghyun.github.io) 접속시 fork 받은 소스 루트에 있는 index.md(또는 index.html) 파일이 로드됩니다. 이것이 저장소 이름을 username.github.io로 변경하는 이유입니다.
 
-
-
-GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io/repositoryname 다른 저장소의 접근도 가능하다.(정적 사이트에 한하여)
+GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io/repositoryname 다른 저장소의 접근도 가능합니다.(정적 사이트에 한하여)
 
 ![](/assets/img/post1/post1_img5.png)
 
@@ -113,7 +110,7 @@ GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io
 
 4-2) GitHub Pages 설정 확인
 
-만약 아래와 같이 활성화가 되어있지 않다면 **Branch**와 :open_file_folder: ​소스 경로를 root로 하여 저장해준다.
+만약 아래와 같이 활성화가 되어있지 않다면 **Branch**와 :open_file_folder: ​소스 경로를 root로 하여 저장해줍니다.
 
 ![비활성화](/assets/img/post1/post1_img6.png "비활성화 상태")
 

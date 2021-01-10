@@ -18,15 +18,18 @@ body { background-color: #eff3fd99; }
 	    	<section class="post-content">
 		    	<a href="{{ "/" | relative_url}}">
 			       	{% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
-			       		<img class="light" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
-			       		<img class="dark" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       		<img class="light profile-img" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       		<img class="dark profile-img" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
 			       	{% else %}
-			       		<img src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
+			       		<img class="profile-img" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" style="width: 120px; height: 110px;" />
 			       	{% endif %}
 		    	</a>
 		    		
 		    	<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>		    	
-		    	<span style="font-size: 16px;">{{ site.author }}</span>
+		    	
+				{%- if site.plainwhite.tagline -%}
+	      			<p class="tagline" style="font-size: 16px;">{{ site.plainwhite.tagline }}</p>
+	      		{%- endif -%}
 		    	
 		    	<div class="div-hr"></div>
 	    	</section>

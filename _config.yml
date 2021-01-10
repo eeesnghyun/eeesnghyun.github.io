@@ -1,6 +1,6 @@
 #encoding: UTF-8
 title: Your awesome title
-author: Seung-Hyun Lee
+#author: Seung-Hyun Lee
 email: szhyun2002@gmail.com
 inhabit: Seoul, Korea
 description: > # this means to ignore newlines until "show_exerpts:"
@@ -17,7 +17,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: 이승현
-  #tagline: Developer
+  tagline: Seung-Hyun Lee
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
