@@ -1,13 +1,10 @@
 ---
 layout: post
-title:  "GitHub Pages에 포트폴리오 호스팅하기 - 1)"
+title:  "GitHub Pages에 포트폴리오 호스팅하기 - 1) GitHub Pages란"
 date:   2020-01-04 21:03:36 +0530
 categories: Post
-typora-root-url: img\post1
 ---
-GitHub에서 무료로 웹 서비스 호스팅을 사용할 수 있다는 것을 알고 "포트폴리오 페이지 하나쯤 만들어놔야지.." 했는데 차일피일 미루다가 이제야 만들어봤네요 :sweat_smile:
-
-
+GitHub에서 무료로 웹 서비스 호스팅을 사용할 수 있다는 것을 알고 "포트폴리오 페이지 하나쯤 만들어놔야지.." 했는데 차일피일 미루다가 이제야 만들어봤네요. :sweat_smile:
 
 설정과정, 처음 보는 문법들, 만들면서 마주한 에러들 또 해결법까지. 만들었던 과정들을 공유하고자 글을 작성했습니다.
 
@@ -21,7 +18,7 @@ GitHub Pages는 정적 페이지만 호스팅이 가능하다. 하지만 무료�
 
 
 
-GitHub Pages는 내부적으로 **Jekyll**에 의해 작동된다.  Jekyll은 내부적으로 **Ruby**라는 언어로 만들어져 있고, Jekyll 사용을 위해서는 **Markdown**의 문법도 알아두어야 하기 때문에 Jekyll, Ruby, Markdown에 대해 조금은 알고 넘어가보려 한다.
+GitHub Pages는 내부적으로 **Jekyll**에 의해 작동된다.  Jekyll은 **Ruby**라는 언어로 만들어져 있고, Jekyll 사용을 위해서는 **Markdown**의 문법도 알아두어야 하기 때문에 Jekyll, Ruby, Markdown에 대해 조금은 알고 넘어가보려 한다.
 
 
 
@@ -76,17 +73,17 @@ Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있다.
 
 ## Jekyll 테마 적용하기
 
-나는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했다. [여기](http://jekyllthemes.org/)에서 다양한 테마를 구경할 수 있었고 선택한 테마는 [이것](http://jekyllthemes.org/themes/PlainWhite-Jekyll/)이다.
+나는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했다. [**여기**](http://jekyllthemes.org/)에서 다양한 테마를 구경할 수 있었고 선택한 테마는 [**이것**](http://jekyllthemes.org/themes/PlainWhite-Jekyll/)이다.
 
-<br>
+아래 순서를 따라 테마를 적용해보자.
 
-1) Homepage 클릭
+1) **Homepage** 클릭
 
 ![](/assets/img/post1/post1_img2.png)
 
 <br>
 
-2) 상단에 Fork 클릭
+2) 상단에 **Fork** 클릭
 
 ![Generic badge](https://img.shields.io/badge/-fork-2E4DA7?style=flat) : 다른 사람의 Repository에 있는 소스를 내 Repository에 복제하여 수정하고 추가할 수 있는 복제 기능.
 
@@ -116,11 +113,11 @@ GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io
 
 4-2) GitHub Pages 설정 확인
 
-만약 아래(우측)와 같이 활성화가 되어있지 않다면 (좌측) Branch와 소스 경로를 root로 하여 저장해준다.
+만약 아래와 같이 활성화가 되어있지 않다면 **Branch**와 :open_file_folder: ​소스 경로를 root로 하여 저장해준다.
 
-![](/assets/img/post1/post1_img6.png)
+![비활성화](/assets/img/post1/post1_img6.png "비활성화 상태")
 
-![](/assets/img/post1/post1_img7.png)
+![활성화](/assets/img/post1/post1_img7.png)
 
 <br>
 
@@ -130,9 +127,7 @@ GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io
 
 <br>
 
-
-
-참고자료
+:books: **참고자료**
 
 * [GitHub Pages](https://pages.github.com/)
 * [Jekyll](http://jekyllrb-ko.github.io/docs/)
