@@ -84,7 +84,7 @@ main {
   .about {
     display: flex;
     height: 100vh;
-    padding-bottom: 15vh;
+    padding-bottom: 10vh;
     @media screen and (max-width: $mobileW) {
       height: auto;
       padding: 5vh 30px;
@@ -277,6 +277,9 @@ main {
     /*font-family: Raleway, sans-serif;*/
     font-family: 'GmarketSansTTFLight', sans-serif;
   }
+  ul {
+     padding-inline-start: 20px;
+  }
 }
 .posts-labelgroup {
   margin: 0 0 0.67em 0;
@@ -303,7 +306,7 @@ table {
   }
   th {
     background-color: #eee;
-    font-family: Raleway;
+    font-family: 'GmarketSansTTFLight';
   }
 }
 

@@ -88,6 +88,12 @@ categories: Post
 
 <br>
 
+12) .md 파일 수정도 하기 위해 Markdown 에디터도 미리 설치해두자. :point_right: [Typora 설치](https://typora.io/)
+
+![](/assets/img/post2/post2_img11.png)
+
+
+
 :books: **참고자료**
 
 * [Jekyll 설치](https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/)
