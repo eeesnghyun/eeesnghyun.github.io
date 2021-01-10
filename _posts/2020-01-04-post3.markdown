@@ -99,9 +99,9 @@ head.html
 
 ![](/assets/img/post3/post3_img11.png) | ![](/assets/img/post3/post3_img10.png) | | ![](/assets/img/post3/post3_img9.png)
 
-root 경로에 about.md와 works.md 파일을 만들어봤습니다.
+root 경로에 about.md와 works.md 파일을 만들었습니다.(html 파일도 가능하지만 이번 기회에 Markdown도 공부하고자 Markdown 파일로 진행했습니다)
 
-layout: page는 ![Generic badge](https://img.shields.io/badge/-default.html-2E4DA7?style=flat) 레이아웃을 사용하고 있습니다.
+![Generic badge](https://img.shields.io/badge/-works.md-2E4DA7?style=flat)  layout: page는 ![Generic badge](https://img.shields.io/badge/-default.html-2E4DA7?style=flat) 레이아웃을 사용하고 있습니다.
 
 ![page.html](/assets/img/post3/post3_img15.png) page.html
 
@@ -110,3 +110,13 @@ layout: page는 ![Generic badge](https://img.shields.io/badge/-default.html-2E4D
 ![](/assets/img/post3/post3_img13.png) | ![](/assets/img/post3/post3_img14.png)
 
 <br>
+
+> 포스팅 페이지 변경하기
+
+이제 포스팅 페이지만 바꿔주면 얼추 원하는 모습의 사이트가 완성됩니다. 기존 포스팅 역시 ![Generic badge](https://img.shields.io/badge/-default.html-2E4DA7?style=flat) 레이아웃을 사용하고 있습니다. 그렇다면 ![Generic badge](https://img.shields.io/badge/-default.html-2E4DA7?style=flat)  파일을 변경해 원하는 구조로 변경해보겠습니다.
+
+![](/assets/img/post3/post3_img16.png)
+
+먼저 ![Generic badge](https://img.shields.io/badge/-default.html-2E4DA7?style=flat)  복사해 ![Generic badge](https://img.shields.io/badge/-default2.html-2E4DA7?style=flat)   파일을 만들었습니다.
+
+소스를 보면 section 태그를 이용해 "about" 클래스가 사용된 프로필 부분  <section class="about"> 과   "content" 클래스가 사용된 부분(이 곳에 포스팅 페이지가 들어옵니다) <section class="content">
