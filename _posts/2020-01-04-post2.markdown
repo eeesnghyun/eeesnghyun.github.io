@@ -24,7 +24,7 @@ categories: Post
 
 <br>
 
-3) 해당 fork에 대한 사용 계획을 묻는데 오픈 소스에 대한 기여가 목적이 아니기 때문에 두번째 선택지 **For my own purposes**를클릭합니다.
+3) 해당 fork에 대한 사용 계획을 묻는데 오픈 소스에 대한 기여가 목적이 아니기 때문에 두번째 선택지 **For my own purposes**를 클릭합니다.
 
 ![](/assets/img/post2/post2_img3.png)
 
