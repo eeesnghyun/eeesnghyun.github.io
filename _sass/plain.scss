@@ -280,6 +280,12 @@ main {
   }
   ul {
      padding-inline-start: 20px;
+     li {
+     	list-style-type: square;
+     }
+  }
+  ol {
+     padding-inline-start: 20px;
   }
 }
 .posts-labelgroup {
@@ -354,8 +360,19 @@ footer {
  * Custom CSS
  **********************************************************************/
 
-p img { vertical-align: middle; }
+p img { 
+	vertical-align: middle; 
+    background-color: #e6e6e6;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 4px;
+}
 li img { vertical-align: middle; }
+
+.emoji {
+	background: none;
+	padding: 0px;
+}
 
 .profile-img {
 	-webkit-border-radius: 100px;
@@ -430,8 +447,7 @@ blockquote {
 }
 
 .post-top {
-	text-align: center;
-	margin-top: 20px;
+	text-align: center;	
 }
 .post-top {
 	.post-content {
@@ -464,9 +480,15 @@ blockquote {
 		border-bottom: 1px solid #2E4DA7;
 	}
 }
+.post-title2 {
+	line-height: 1.2em;
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
 .post-list {
 	.post-title {
-		font-size: 18px;	
+		font-size: 18px;
 	}
 }
 .div-hr {
@@ -476,3 +498,8 @@ blockquote {
     margin: 0px auto;
 }
 
+img + em {    
+    display: inherit;
+    text-align: center;
+    font-size: 90%;
+}
