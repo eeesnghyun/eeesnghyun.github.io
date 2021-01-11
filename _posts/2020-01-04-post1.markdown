@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "GitHub Pages에 포트폴리오 호스팅하기 - 1) GitHub Pages란"
+title:  "GitHub Pages에 포트폴리오 호스팅하기 - 1.GitHub Pages란"
 date:   2020-01-04 21:03:36 +0530
 categories: Post
 ---
@@ -100,7 +100,7 @@ Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있습�
 
 아래와 같이 저장소 이름을 변경하면 [https://eeesnghyun.github.io](https://eeesnghyun.github.io) 접속시 fork 받은 소스 루트에 있는 index.md(또는 index.html) 파일이 로드됩니다. 이것이 저장소 이름을 username.github.io로 변경하는 이유입니다.
 
-GitHub Pages에 대한 저장소가 만들어지면 https://eeesnghyun.github.io/repositoryname 다른 저장소의 접근도 가능합니다.(정적 사이트에 한하여)
+GitHub Pages에 대한 저장소가 만들어지면 `https://eeesnghyun.github.io/repositoryname` 와 같이 저장소의 이름을 붙여 다른 저장소의 접근도 가능합니다.(정적 사이트에 한하여)
 
 ![](/assets/img/post1/post1_img5.png)
 

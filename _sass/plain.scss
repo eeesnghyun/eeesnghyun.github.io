@@ -6,7 +6,7 @@ $linkColor: #0a59b0;
 $mobileW: 768px;
 $smallMobileW: 480px;
 $bigScreenW: 1600px;
-$leftWidth: 240px;
+$leftWidth: 360px;
 
 *,
 *:before,
@@ -247,7 +247,7 @@ main {
   }
 }
 .post-container {
-  padding-left: 30px;
+  padding-left: 20px;
 }
 .post {
   /*font-family: "Merriweather", sans-serif;*/
@@ -474,7 +474,7 @@ blockquote {
 	.post-list {
 		list-style-type: none;
 		margin: 20px 20px;
-		padding-left: 30px;
+		padding-left: 1.5rem;
 		padding-bottom: 10px;
 		border-top: 1px solid #2E4DA7;
 		border-bottom: 1px solid #2E4DA7;
@@ -482,7 +482,7 @@ blockquote {
 }
 .post-title2 {
 	line-height: 1.2em;
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-weight: bold;
 }
 
