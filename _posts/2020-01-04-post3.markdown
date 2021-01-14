@@ -166,7 +166,9 @@ nav 태그를 보면 문법은 조금 어색하지만 분명 for문과 if문임�
 
 마지막으로 템플릿을 수정하고 ![Generic badge](https://img.shields.io/badge/-post.html-2E4DA7?style=flat)의 layout을 ![Generic badge](https://img.shields.io/badge/-default2.html-2E4DA7?style=flat)로 변경해주었습니다.
 
-![](/assets/img/post3/post3_img17.jpg){: height="400"}|![](/assets/img/post3/post3_img18.jpg) 
+![변경전](/assets/img/post3/post3_img17.jpg){: .caption}
+
+![변경후](/assets/img/post3/post3_img18.jpg){:height="450"}{: .caption}
 
 <br>
 
