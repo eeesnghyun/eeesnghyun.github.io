@@ -6,12 +6,14 @@ layout: default
   <h1 class="page-heading">{{ page.title }}</h1>
 {%- endif -%}
 
-{{ content }}
+	<div class="page-index" >
+		{{ content }}
+	</div>
 
 {%- if site.posts.size > 0 -%}
 	<ul class="posts">
     	<li class="posts-labelgroup" id="posts-labelgroup">
-      		<h1 id="posts-label">posts</h1>
+      		<h3 id="posts-label">{{ site.plainwhite.post_label }}</h3>
       		
       		{% if site.plainwhite.search %}
       		<div class="search-container">

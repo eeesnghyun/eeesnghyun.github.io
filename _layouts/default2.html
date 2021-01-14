@@ -35,7 +35,7 @@ body { background-color: #eff3fd99; }
 		    	
 		    	<div class="div-hr"></div>
 	    	</section>
-		</main>	 	   	
+		</main>	<!-- END top -->	 	   	
 	   	
 	   	<main class="post-main">	   		
 	   		<section class="post-content">
@@ -45,8 +45,9 @@ body { background-color: #eff3fd99; }
 	    	<footer class="{{condensed_class}}">
 	      		{{ footer }}
 	    	</footer>   		
-		</main>
+		</main>	<!-- END main -->
 	  
+	  	<!-- Google ad -->
 	  	<ins class="adsbygoogle"
 		     style="display:block; border-bottom: initial;"
 		     data-ad-client="ca-pub-3752177131465533"
@@ -54,7 +55,7 @@ body { background-color: #eff3fd99; }
 		</div>
 	  
 	  	<!-- Post list -->
-	   <main class="post-main">
+	   <main class="post-footer">
 	  	 	<div class="post-content">
 			 	{%- if site.posts.size > 0 -%}
 					<ul class="post-list">		    	
@@ -82,10 +83,12 @@ body { background-color: #eff3fd99; }
 						{%- endfor -%}
 					</ul>			
 				{%- endif -%} 
-			</div>   
-		</main>
-	</div>
-  
+			</div>						
+		</main>	<!-- END post list -->		
+	</div>		<!-- END post-div -->
+	     
+	<a href="#" class="pageUp"></a>
+	     
   	{% if site.plainwhite.dark_mode %}
   		<script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
   	{% endif %}

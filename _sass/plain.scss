@@ -296,7 +296,7 @@ main {
 }
 
 #posts-label {
-  font-size: 15px;
+  /*font-size: 15px;*/
   color: #555;
   text-transform: uppercase;
   letter-spacing: 0.5px;
@@ -359,6 +359,16 @@ footer {
 /**********************************************************************
  * Custom CSS
  **********************************************************************/
+.pageUp {
+	position: fixed;
+    bottom: 1%;
+    right: 0;
+    width: 32px;
+    height: 32px;    
+    border-radius: 50%;    
+    background: #e6e6e6 url(../img/pageup.jpg) no-repeat;
+    text-indent: -999em;
+}
 
 p img { 
 	vertical-align: middle; 
@@ -433,9 +443,6 @@ blockquote {
 		margin-top: 0;
 		margin-bottom: 0;
 	}
-}
-
-blockquote {
 	h1,h2,h3,h4,h5,h6 {
 		margin: 0.2em 0;
 	}
@@ -469,7 +476,7 @@ blockquote {
 .post-content {
 	background-color: #fff;
 }
-.post-main {
+.post-main, .post-footer {
 	.post-content {
 		@media screen and (min-width: $mobileW + 1) {
       		width: 100%;
@@ -497,6 +504,12 @@ blockquote {
 		font-size: 18px;
 	}
 }
+
+.page-index {
+	margin: 45px 30px;
+	padding-inline-start: 40px;
+}
+
 .div-hr {
     padding-bottom: 40px;
     border-bottom: 1px solid #cecece;
