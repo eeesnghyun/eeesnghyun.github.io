@@ -2,7 +2,7 @@
 layout: post
 title:  "GitHub Pages에 포트폴리오 호스팅하기 - 1) GitHub Pages란"
 date:   2020-01-04 21:03:36 +0530
-categories: Post
+categories: 개발과정
 ---
 GitHub에서 무료로 웹 서비스 호스팅을 사용할 수 있다는 것을 알고 "포트폴리오 페이지 하나쯤 만들어놔야지.." 했는데 차일피일 미루다가 이제야 만들어 봤네요. :sweat_smile: 설정 과정, 처음 보는 문법들, 발생한 에러들과 해결법까지. 만들었던 과정들을 공유하고자 글을 작성했습니다.
 
@@ -63,12 +63,12 @@ Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있습�
 
 ## Jekyll 테마 적용하기
 
-저는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했습니다. [**여기**](http://jekyllthemes.org/)에서 다양한 테마를 구경할 수 있었고 두 가지 정도의 기준을 세워 테마를 골랐습니다.
+저는 하나부터 열까지 만들어볼 생각은 아니었기 때문에 Jekyll 테마를 골라 커스터마이징하기로 했습니다. [**여기**](http://jekyllthemes.org/){:target="_blank"}에서 다양한 테마를 구경할 수 있었고 두 가지 정도의 기준을 세워 테마를 골랐습니다.
 
 1. 내용이 직관적으로 눈에 들어왔으면 좋겠음
 2. 심플한 디자인
 
-그리고 선택한 테마는 [**이것**](http://jekyllthemes.org/themes/PlainWhite-Jekyll/)입니다.
+그리고 선택한 테마는 [**이것**](http://jekyllthemes.org/themes/PlainWhite-Jekyll/){:target="_blank"}입니다.
 
 <br>
 
@@ -98,7 +98,7 @@ Markdown이 사용된 대표적인 예로 GitHub에 README.md 파일이 있습�
 
 앞서 GitHub Pages에서 기본으로 제공하는 도메인은 username.github.io라고 했습니다.
 
-아래와 같이 저장소 이름을 변경하면 [https://eeesnghyun.github.io](https://eeesnghyun.github.io) 접속시 fork 받은 소스 루트에 있는 index.md(또는 index.html) 파일이 로드됩니다. 이것이 저장소 이름을 username.github.io로 변경하는 이유입니다.
+아래와 같이 저장소 이름을 변경하면 [https://eeesnghyun.github.io](https://eeesnghyun.github.io){:target="_blank"} 접속시 fork 받은 소스 루트에 있는 index.md(또는 index.html) 파일이 로드됩니다. 이것이 저장소 이름을 username.github.io로 변경하는 이유입니다.
 
 GitHub Pages에 대한 저장소가 만들어지면 `https://eeesnghyun.github.io/repositoryname` 와 같이 저장소의 이름을 붙여 다른 저장소의 접근도 가능합니다.(정적 사이트에 한하여)
 
@@ -124,9 +124,9 @@ GitHub Pages에 대한 저장소가 만들어지면 `https://eeesnghyun.github.i
 
 :books: **참고자료**
 
-* [GitHub Pages](https://pages.github.com/)
-* [Jekyll](http://jekyllrb-ko.github.io/docs/)
-* [생활코딩](https://opentutorials.org/course/3084/18891)
+* [GitHub Pages](https://pages.github.com/){:target="_blank"}
+* [Jekyll](http://jekyllrb-ko.github.io/docs/){:target="_blank"}
+* [생활코딩](https://opentutorials.org/course/3084/18891){:target="_blank"}
 
 ------
 

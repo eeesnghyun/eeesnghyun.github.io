@@ -2,12 +2,12 @@
 layout: post
 title: "GitHub Pages에 포트폴리오 호스팅하기 - 3) 커스터마이징"
 date: 2020-01-04 21:03:36 +0530
-categories: Post
+categories: 개발과정
 ---
 
 본격적인 커스터마이징을 하기 앞서 시안을 만들고 현재 테마의 구조를 파악하기로 했습니다.
 
-사용된 [테마](https://samarsault.com/)는 아래와 같은 구조로 되어 있었습니다. 왼쪽을 기준으로 고정시킨 다음, 오른쪽 페이지에 컨텐츠를 띄우는 방식입니다. (포스팅 글 클릭시 왼쪽 프로필 페이지는 그대로 유지)
+사용된 [테마](https://samarsault.com/){:target="_blank"}는 아래와 같은 구조로 되어 있었습니다. 왼쪽을 기준으로 고정시킨 다음, 오른쪽 페이지에 컨텐츠를 띄우는 방식입니다. (포스팅 글 클릭시 왼쪽 프로필 페이지는 그대로 유지)
 
 ![](/assets/img/post3/post3_img1.jpg){: width="500"height="250"}
 
@@ -101,7 +101,7 @@ head.html
 
 > 메뉴 페이지 만들기
 
-나를 소개할 페이지와 프로젝트 소개 페이지는 메뉴 형태로 뿌려주면 될 것 같았는데  [README.md](https://github.com/eeesnghyun/eeesnghyun.github.io) 에 친절히 설명이 나와있었습니다. ![Generic badge](https://img.shields.io/badge/-_config.yml-2E4DA7?style=flat) 에 있는 navigation 값을 이용하면 될 것 같습니다.
+나를 소개할 페이지와 프로젝트 소개 페이지는 메뉴 형태로 뿌려주면 될 것 같았는데  [README.md](https://github.com/eeesnghyun/eeesnghyun.github.io){: target="blank"} 에 친절히 설명이 나와있었습니다.  ![Generic badge](https://img.shields.io/badge/-config.yml-2E4DA7?style=flat) 에 있는 navigation 값을 이용하면 될 것 같습니다.
 
 ![](/assets/img/post3/post3_img12.png)
 
@@ -172,5 +172,5 @@ nav 태그를 보면 문법은 조금 어색하지만 분명 for문과 if문임�
 
 <br>:books: **참고자료**
 
-* [Liquid 문법1](https://jekyllrb-ko.github.io/docs/variables/) 
-* [Liquid 문법2](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
+* [Liquid 문법1](https://jekyllrb-ko.github.io/docs/variables/){:target="_blank"} 
+* [Liquid 문법2](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/){:target="_blank"}

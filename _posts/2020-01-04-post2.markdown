@@ -2,7 +2,7 @@
 layout: post
 title:  "GitHub Pages에 포트폴리오 호스팅하기 - 2) 로컬 환경 준비"
 date:   2020-01-04 21:03:36 +0530
-categories: Post
+categories: 개발과정
 ---
 이번 글에서는 Jekyll 테마를 커스텀하기 위해 로컬 환경을 준비하는 작업을 정리했습니다. 
 
@@ -36,7 +36,7 @@ categories: Post
 
 <br>
 
-5)  이제 로컬에서 Jekyll을 실행하기 위한 **Ruby**를 설치합니다. :point_right: [Ruby 설치](https://rubyinstaller.org/downloads/)
+5)  이제 로컬에서 Jekyll을 실행하기 위한 **Ruby**를 설치합니다. :point_right: [Ruby 설치](https://rubyinstaller.org/downloads/){:target="_blank"}
 
 ![](/assets/img/post2/post2_img10.jpg)
 
@@ -88,7 +88,7 @@ categories: Post
 
 <br>
 
-12) .md 파일 수정도 하기 위해 Markdown 에디터도 미리 설치하였습니다. :point_right: [Typora 설치](https://typora.io/)
+12) .md 파일 수정도 하기 위해 Markdown 에디터도 미리 설치하였습니다. :point_right: [Typora 설치](https://typora.io/){:target="_blank"}
 
 ![](/assets/img/post2/post2_img11.png)
 
@@ -96,5 +96,5 @@ categories: Post
 
 :books: **참고자료**
 
-* [Jekyll 설치](https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/)
-* [Ruby 설치](https://park-jongseok.github.io/languages/ruby/2019/10/03/installing-ruby.html)
+* [Jekyll 설치](https://theorydb.github.io/envops/2019/05/03/envops-blog-github-pages-jekyll/){: target="_blank"}
+* [Ruby 설치](https://park-jongseok.github.io/languages/ruby/2019/10/03/installing-ruby.html){: target="_blank"}
