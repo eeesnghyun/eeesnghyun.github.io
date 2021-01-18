@@ -15,7 +15,7 @@ title: project
 
 > ### 테스트2
 >
-> ![Generic badge](https://img.shields.io/badge/-JAVA-80c1ff?style=flat&logo=java&logoColor=black)    
+> ![Generic badge](https://img.shields.io/badge/-JAVA-80c1ff?style=flat&logo=java&logoColor=white)    
 
 * test2_1
 * test2_2

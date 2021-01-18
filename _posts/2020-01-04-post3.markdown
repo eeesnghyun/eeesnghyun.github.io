@@ -170,9 +170,7 @@ nav 태그를 보면 문법은 조금 어색하지만 분명 for문과 if문임�
 
 ![변경후](/assets/img/post3/post3_img18.jpg){:height="450"}{: .caption}
 
-<br>
-
-참고자료
+<br>:books: **참고자료**
 
 * [Liquid 문법1](https://jekyllrb-ko.github.io/docs/variables/) 
 * [Liquid 문법2](https://nolboo.kim/blog/2014/01/09/upgrade-jekyll-github-blog/)
