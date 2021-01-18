@@ -147,7 +147,7 @@ plugins:
 
 <br>
 
-2)  **captionjs.css**, **jquery.caption.js** 파일을 적절한 위치로 추가합니다.
+2)  **captionjs.css**, **jquery.caption.js** 파일을 적절한 위치(본인 프로젝트 assets폴더)로 추가합니다.
 
 ![](/assets/img/post4/post4_img5.jpg)
 
@@ -175,11 +175,7 @@ $(window).load(function(){
 		'force_dimensions': true,        // Force the dimensions in case they cannot be detected (e.g., image is not yet painted to viewport)
 		'is_responsive'      : false,       // Ensure the figure and image change size when in responsive layout. Requires a container to control responsiveness!
 		'inherit_styles'      : false        // Have the caption.js container inherit box-model properties from the original image
-	});
-	
-	$(".pageUp").on("click", function(e) {
-		$("html, body").animate({scrollTop: 0}, 1000);
-	});
+	});	
 });
 </script>
 ```
@@ -274,7 +270,7 @@ figure figcaption:before {
 
 <br>
 
-*이미지 캡션 스타일은 4가지가 있습니다. **'mode'** 옵션 주석을 참고해주세요. [사이트](https://captionjs.com/)의 EXAMPLE 영역에서 확인할 수 있습니다.
+*이미지 캡션 스타일은 4가지가 있습니다. **'mode'** 옵션 주석을 참고해주세요. [사이트](https://captionjs.com/)의 EXAMPLE 영역에서 4가지 스타일을 확인할 수 있습니다.
 
 ![head.html](/assets/img/post4/post4_img9.jpg){: .caption }
 
@@ -285,5 +281,3 @@ figure figcaption:before {
 * [이모지사용법](https://davemateer.com/2019/05/27/Jemoji)
 
 * [이미지캡션달기](https://stackoverflow.com/questions/10264463/can-a-figcaption-be-restricted-to-the-width-of-a-responsively-sized-image/13363408)
-
-* [이미지캡션참고](https://stackoverflow.com/questions/10264463/can-a-figcaption-be-restricted-to-the-width-of-a-responsively-sized-image/13363408)
