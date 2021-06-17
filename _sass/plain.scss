@@ -282,6 +282,8 @@ main {
      padding-inline-start: 20px;
   }
 }
+.post h3 { border-bottom: 1px solid #b3b3b3; }
+
 .posts-labelgroup {
   margin: 0 0 0.67em 0;
   display: flex;
@@ -302,11 +304,10 @@ main {
 }
 table {
   th, td {
-    padding: 8px 13px;
-    border: 1px solid #dfe2e5;
+    padding: 8px 13px;    
   }
   th {
-    background-color: #eee;
+    border-bottom: 1px solid #222;
     font-family: 'GmarketSansTTFLight';
   }
 }
@@ -365,6 +366,8 @@ li img { vertical-align: middle; }
 .about {
 	.about-header {
 		.about-table {
+			margin-top: 20px;
+
 			th, td {
 		    	padding: 8px 13px;
 		    	border: none;
@@ -389,8 +392,7 @@ li img { vertical-align: middle; }
 			  	}
 			  	th {
 			  		text-align: center;
-			  		border-top-left-radius: 15px;
-			  		border: 1px solid #fff;
+			  		border-top-left-radius: 15px;			  	
 			  	}
 			}
 		}
