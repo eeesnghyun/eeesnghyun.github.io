@@ -2,6 +2,8 @@
 <html lang="{{ site.plainwhite.html_lang }}">
 <head>
   {%- include head.html -%}
+  
+<script data-ad-client="ca-pub-3752177131465533" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 
 {%- if site.plainwhite.condensed_mobile contains page.layout -%}
@@ -25,7 +27,7 @@ body { background-color: #eff3fd99; }
 			       	{% endif %}
 		    	</a>
 		    		
-		    	<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>		    	
+		    	<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>
 		    	
 				{%- if site.plainwhite.tagline -%}
 	      			<p class="tagline" style="font-size: 16px;">{{ site.plainwhite.tagline }}</p>
@@ -33,7 +35,7 @@ body { background-color: #eff3fd99; }
 		    	
 		    	<div class="div-hr"></div>
 	    	</section>
-		</main>	 	   	
+		</main>	<!-- END top -->	 	   	
 	   	
 	   	<main class="post-main">	   		
 	   		<section class="post-content">
@@ -43,10 +45,17 @@ body { background-color: #eff3fd99; }
 	    	<footer class="{{condensed_class}}">
 	      		{{ footer }}
 	    	</footer>   		
-		</main>
+		</main>	<!-- END main -->
+	  
+	  	<!-- Google ad -->
+	  	<ins class="adsbygoogle"
+		     style="display:block; border-bottom: initial;"
+		     data-ad-client="ca-pub-3752177131465533"
+		     data-ad-format="auto"></ins>
+		</div>
 	  
 	  	<!-- Post list -->
-	   <main class="post-main">
+	   <main class="post-footer">
 	  	 	<div class="post-content">
 			 	{%- if site.posts.size > 0 -%}
 					<ul class="post-list">		    	
@@ -54,7 +63,7 @@ body { background-color: #eff3fd99; }
 							<li>
 						    	{%- assign date_format = site.plainwhite.date_format | default: "%b %-d, %Y" -%}
 							      	<a class="post-link" href="{{ post.url | relative_url }}">
-							       		<h2 class="post-title">{{ post.title | escape }}</h2>
+							       		<h1 class="post-title">{{ post.title | escape }}</h1>
 							      	</a>
 						        	
 							      	<div class="post-meta">
@@ -74,10 +83,12 @@ body { background-color: #eff3fd99; }
 						{%- endfor -%}
 					</ul>			
 				{%- endif -%} 
-			</div>   
-		</main>
-	</div>
-  
+			</div>						
+		</main>	<!-- END post list -->		
+	</div>		<!-- END post-div -->
+	     
+	<a href="#" class="pageUp"></a>
+	     
   	{% if site.plainwhite.dark_mode %}
   		<script type="text/javascript" src="{{ "/assets/js/darkmode.js" | relative_url }}"></script>
   	{% endif %}

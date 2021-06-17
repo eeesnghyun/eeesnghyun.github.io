@@ -1,13 +1,13 @@
 #encoding: UTF-8
 title: Your awesome title
-author: Seung-Hyun Lee
+#author: Seung-Hyun Lee
 email: szhyun2002@gmail.com
 inhabit: Seoul, Korea
 description: > # this means to ignore newlines until "show_exerpts:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-show_excerpts: true # set to true to show excerpts on the homepage
+show_excerpts: false # set to true to show excerpts on the homepage
 
 #baseurl: "/gitweb-test"
 
@@ -17,7 +17,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: 이승현
-  #tagline: Seung-Hyun Lee
+  tagline: Seung-Hyun Lee
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:

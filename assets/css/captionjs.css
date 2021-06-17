@@ -1,0 +1,71 @@
+.captionjs{line-height:0;}
+.captionjs figcaption{line-height:1;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;width:100%}
+.captionjs.captionjs-animated,.captionjs.captionjs-hidden,.captionjs.captionjs-stacked{position:relative;overflow:hidden}
+.captionjs.captionjs-animated figcaption,.captionjs.captionjs-hidden figcaption,.captionjs.captionjs-stacked figcaption{position:absolute}
+.captionjs.captionjs-stacked figcaption{bottom:0}
+.captionjs.captionjs-animated figcaption{-webkit-transition:.25s bottom;transition:.25s bottom}
+.captionjs.captionjs-animated:hover figcaption{bottom:0!important}
+.captionjs.captionjs-hidden figcaptiOn{-webkit-transition:.25s margin-bottom;transition:.25s margin-bottom}
+.captionjs.captionjs-hidden:hover figcaption{margin-bottom:0!important}
+
+.captionjs, .captionjs figcaption {
+	margin: 0 0 20px;
+	padding: 0;
+}
+.captionjs figcaption {
+	font-size: 13px;
+	line-height: 1.5;
+	padding: 10px 15px;
+	border: 1px solid #ddd;
+	border-top: none;
+	background-color: #eee;
+}
+.captionjs.captionjs-stacked figcaption {
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	border: none;
+}
+.captionjs.captionjs-animated figcaption {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: rgba(0, 0, 0, 0.75);
+	color: #fff;
+	border: none;
+}
+.captionjs.captionjs-hidden figcaption {
+	border-top: 1px solid rgba(255, 255, 255, 0.3);
+	background-color: rgb(243 241 241 / 75%);
+	color: #2E4DA7;
+	font-weight: bold;
+	text-align: center;
+	border: none;
+}
+.captionjs.captionjs-default a {
+	color: #000;
+}
+figure {
+   background-color: #fff;
+   padding: 5px;
+   font-size: .875em;
+   display: table;
+   width: 0px!important;
+}
+figure img {
+    display: block;
+    width: 100%;
+}
+figcaption {
+    display: table-caption;
+    caption-side: bottom;
+    background: #fff;
+    padding: 0 5px 5px;
+}
+figure figcaption:before {
+		content: "▲";
+    	color: #2E4DA7;
+    	display: inline-block;    
+    	background-size: 7px 7px;
+    	width: 3px;
+    	height: 3px;
+    	margin: -15px 12px 0 0;
+    	vertical-align: middle;
+}
