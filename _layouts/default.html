@@ -15,7 +15,7 @@
     <section class="about">
       	<div class="about-header {{condensed_class}}">
 	    	<div class="about-title">	    		
-	      		<a href="{{ "/" | relative_url}}">
+	      		<a href="{{ "/about" | relative_url}}">
 	        	{% if site.plainwhite.portfolio_image_dark and site.plainwhite.dark_mode %}
 	        		<img class="light profile-img" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image }}" alt="{{ site.plainwhite.name }}" />
 	        		<img class="dark profile-img" src="{{site.baseurl }}/{{ site.plainwhite.portfolio_image_dark }}" alt="{{ site.plainwhite.name }}" />
@@ -24,7 +24,7 @@
 	        	{% endif %}
 	      		</a>
 	      		
-	     		<h2 id="title"><a href="{{ "/" | relative_url }}">{{ site.plainwhite.name }}</a></h2>
+	     		<h2 id="title">{{ site.plainwhite.name }}</h2>
 			</div>
 							
 	      	{%- if site.plainwhite.tagline -%}
@@ -32,29 +32,32 @@
 	      	{%- endif -%}
 	      	
 	      	<table class="about-table">
-	      		<tr>
+	      		<!--<tr>
 	      			<th><i class="fas fa-home"></i></th>	
 	      			<td>{{ site.inhabit }}</td>
-	      		</tr>
+	      		</tr>-->
 	      		<tr>
 	      			<th><i class="fas fa-envelope-square"></i></th>	
 	      			<td>{{ site.email }}</td>
+	      		</tr>
+	      		<tr>
+	      			<th><i class="fas fa-link"></i></th>	
+	      			<td><a href="{{ site.blog }}" target="_blank">{{ site.blog }}</td>
+	      		</tr>
+	      		<tr>
+	      			<th><i class="fab fa-github-square"></i></th>	
+	      			<td><a href="{{ site.github }}" target="_blank">{{ site.github }}</td>
 	      		</tr>
 	      	</table>
 		</div>
       
       	{% capture footer %}
       		{%- if site.plainwhite.social_links != '' -%}
-      			<ul class="social about-footer {{condensed_class}}">
-        			<!-- blog -->
-        			<a href="https://shxrecord.tistory.com/" target="_blank">
-          				<li><i class="fas fa-link" style="font-size: 28px; margin-top: 5px"></i></li>
-        			</a>
-        			
+      			<ul class="social about-footer {{condensed_class}}">        			        			
         			{%- if site.plainwhite.social_links.github -%}
-        				<a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
+        				<!--<a href="https://github.com/{{ site.plainwhite.social_links.github }}" target="_blank">
           					<li><i class="icon-github-circled"></i></li>
-        				</a>
+        				</a>-->
         			{%- endif -%}
         			
         			{%- if site.plainwhite.social_links.gitlab -%}

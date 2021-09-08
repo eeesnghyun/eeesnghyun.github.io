@@ -8,6 +8,12 @@ title: project
 
 ### Payroll : 차세대 급여 시스템 개발
 
+프로젝트명 / 기간
+
+기여한 점
+
+사용툴 언어 기술
+
 > ![Generic badge](https://img.shields.io/badge/-java-80c1ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-spring security-80c1ff?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-ORACLE-FA5C5C?style=flat&logo=oracle&logoColor=white) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=white) ![Generic badge](https://img.shields.io/badge/-bootstrap-cce6ff?style=flat&logo=bootstrap&logoColor=white)
 
 * 
