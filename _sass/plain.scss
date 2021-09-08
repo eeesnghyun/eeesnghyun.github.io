@@ -303,7 +303,7 @@ main {
   ul {
      padding-inline-start: 20px;
      li {
-     	list-style-type: square;
+     	/*list-style-type: square;*/
      }
   }
   ol {
@@ -343,10 +343,12 @@ table {
   th, td {
     padding: 0px 10px;    
   }
-  th {
-    border-bottom: 1px solid #222;
-    font-family: 'KoPubWorld Dotum Light';
-  }
+}
+
+table .th-basic {
+  padding: 0 10px;
+  color: #777;
+  background-color: #f0f0f5;
 }
 
 footer {
