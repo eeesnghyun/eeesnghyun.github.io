@@ -300,6 +300,7 @@ main {
     /*font-family: Raleway, sans-serif;*/
     font-family: 'KoPubWorld Dotum Light', sans-serif;
   }
+  h2 label { color: #2E4DA7; }
   ul {
      padding-inline-start: 20px;
      li {
@@ -347,8 +348,13 @@ table {
 
 table .th-basic {
   padding: 0 10px;
-  color: #777;
-  background-color: #f0f0f5;
+  color: #cccccc;
+  background-color: #f7f7f7;
+}
+
+table .th-basic2 {
+  padding:  0px 10px 0px 0px;
+  color: #2E4DA7;
 }
 
 footer {

@@ -1,6 +1,10 @@
 # eeesnghyun.github.io
 
-> 개발과정
+> 포트폴리오 사이트입니다.
+
+
+
+## ⚙ 개발과정
 
 * [GitHub Pages에 포트폴리오 호스팅하기 - 1) GitHub Pages란](https://eeesnghyun.github.io/%EA%B0%9C%EB%B0%9C%EA%B3%BC%EC%A0%95/2020/01/04/post1.html)
 * [GitHub Pages에 포트폴리오 호스팅하기 - 2) 로컬 환경 준비](https://eeesnghyun.github.io/%EA%B0%9C%EB%B0%9C%EA%B3%BC%EC%A0%95/2020/01/04/post2.html)
@@ -9,6 +13,6 @@
 
 
 
-## Demo
+## 📙 Demo
 
 [samarsault.com]()
