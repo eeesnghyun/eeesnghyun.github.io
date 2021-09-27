@@ -9,9 +9,9 @@ title: About
 ## 소개
 
 <div class='post-intro'>
-4년차 웹개발자로 Back-End에서 Java, Spring, Oracle을 Front-End에서 javascript, jQuery, CSS를 이용한 프로젝트 개발, 운영, 배포 경험이 있습니다. 항상 간결하고 명쾌한 코드를 짜기 위해 고민합니다. 동시에 코딩 능력도 중요하지만 커뮤니케이션 능력이 우선시되어야 한다고 생각해 공부한 내용과 생각을 정리,기록하고 있습니다.
+4년차 웹개발자로 Back-End에서 Java, Spring, Oracle과 Front-End에서 javascript, jQuery, CSS를 이용한 프로젝트 개발, 운영, 배포 경험이 있습니다. 간결하고 명쾌한 코드를 작성하기 위해 노력합니다. 개인적으로 기록하는 것을 좋아하여 틈틈이 공부한 내용을 정리,작성하여 공유하고 있습니다.
 
-
+  
 
 </div>
 
