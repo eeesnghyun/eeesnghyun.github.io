@@ -16,15 +16,14 @@ title: Works
 
 ![Generic badge](https://img.shields.io/badge/-java8-cce6ff?style=flat&logo=java&logoColor=black)![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=white)![Generic badge](https://img.shields.io/badge/-html-cce6ff?style=flat&logo=html5&logoColor=white)![Generic badge](https://img.shields.io/badge/-css-cce6ff?style=flat&logo=css3&logoColor=white)![Generic badge](https://img.shields.io/badge/-spring framework(ver.4.3)-80c1ff?style=flat&logo=spring&logoColor=black)![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black)![Generic badge](https://img.shields.io/badge/-bootstrap-80c1ff?style=flat&logo=bootstrap&logoColor=white)![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=flat&logo=SUBVERSION&logoColor=white)![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white)![Generic badge](https://img.shields.io/badge/-Tomcat-EFEFEF?style=flat&logo=Apache&logoColor=white)
 
-* VB 기반 레거시 시스템의 차세대(Java/Spring) 개발
-* 급여 계산에 사용되는 데이터 입력 화면 개발
+* 데이터 조회/저장 화면 구현(Back-end, Front-end)
+* Report 개발(Template & Database Query)
+* Jenkins 배포 자동화(SSH 플러그인 이용)
 * 공통 모듈 개발
   1. 페이지 호출 기능의 공통화
-  2. 그리드(SBGrid), 레포트(ClipReport) 모듈 연동
+  2. 컴포넌트 연동(SBGrid, ClipReport)
   3. 공통 검색 조건 개발
-  4. AOP를 이용한 데이터 로그 기록 개발
-* 레포트 개발
-* Jenkins 배포 자동화(SSH 플러그인 이용)
+  4. AOP를 이용한 데이터 로그 저장 기능 구현
 
 <br>
 
@@ -38,7 +37,7 @@ title: Works
 ![Generic badge](https://img.shields.io/badge/-java6-cce6ff?style=flat&logo=java&logoColor=black)![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=white)![Generic badge](https://img.shields.io/badge/-html-cce6ff?style=flat&logo=html5&logoColor=white)![Generic badge](https://img.shields.io/badge/-css-cce6ff?style=flat&logo=css3&logoColor=white)![Generic badge](https://img.shields.io/badge/-spring framework-80c1ff?style=flat&logo=spring&logoColor=black)![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black)![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=flat&logo=SUBVERSION&logoColor=white)![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white)![Generic badge](https://img.shields.io/badge/-Tomcat-EFEFEF?style=flat&logo=Apache&logoColor=white)
 
 * 클라이언트 요구사항 분석 및 화면 설계
-* 동호회 관리 화면 및 가입 기능 개발
+* 관리자 기능 및 화면 구현(Back-end, Front-end)
 
 ------
 
@@ -57,7 +56,7 @@ title: Works
 
 ![Generic badge](https://img.shields.io/badge/-asp-cce6ff?style=flat&logo=asp&logoColor=black)![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=flat&logo=javascript&logoColor=white)![Generic badge](https://img.shields.io/badge/-html-cce6ff?style=flat&logo=html5&logoColor=white)![Generic badge](https://img.shields.io/badge/-css-cce6ff?style=flat&logo=css3&logoColor=white)![Generic badge](https://img.shields.io/badge/-MSSQL-FA5C5C?style=flat&logo=mssql&logoColor=white)![Generic badge](https://img.shields.io/badge/-IIS-EFEFEF?style=flat&logo=IIS&logoColor=white)
 
-* 그래프 라이브러리(FusionCharts)를 이용한 데이터 조회 화면 개발
+* 그래프 라이브러리(FusionCharts)를 이용한 데이터 조회 화면 구현(Front-end)
 
 <br>
 
@@ -69,4 +68,4 @@ title: Works
 
 ![Generic badge](https://img.shields.io/badge/-java5-cce6ff?style=flat&logo=java&logoColor=black)![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=flat&logo=javascript&logoColor=white)![Generic badge](https://img.shields.io/badge/-html-cce6ff?style=flat&logo=html5&logoColor=white)![Generic badge](https://img.shields.io/badge/-css-cce6ff?style=flat&logo=css3&logoColor=white)![Generic badge](https://img.shields.io/badge/-spring framework(ver.3.x)-80c1ff?style=flat&logo=spring&logoColor=black)![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black)![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)![Generic badge](https://img.shields.io/badge/-Tomcat-EFEFEF?style=flat&logo=Apache&logoColor=white)
 
-* 주 52시간 근무제 시행에 따라 근무시간관리 화면 개발
+* 주 52시간 근무제 시행에 따라 근무시간관리 화면 구현(Front-end)
