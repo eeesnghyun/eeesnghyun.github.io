@@ -20,7 +20,7 @@ title: Works
 * Report 개발(Template & Database Query)
 * Jenkins 배포 자동화(SSH 플러그인 이용)
 * 공통 모듈 개발
-  1. 페이지 호출 기능의 공통화
+  1. 페이지 호출 표준화
   2. 컴포넌트 연동(SBGrid, ClipReport)
   3. 공통 검색 조건 개발
   4. AOP를 이용한 데이터 로그 저장 기능 구현
