@@ -9,7 +9,7 @@ title: About
 ## 소개
 
 <div class='post-intro'>
-4년차 웹개발자로 Back-End에서 Java, Spring, Oracle과 Front-End에서 javascript, jquery, css를 이용한 프로젝트 개발, 운영, 배포 경험이 있습니다. 간결하고 명쾌한 코드를 작성하기 위해 노력합니다. 개인적으로 기록하는 것을 좋아하여 틈틈이 공부한 내용을 정리,작성하여 공유하고 있습니다.
+5년차 웹개발자로 Back-End에서 Java, Spring, Oracle과 Front-End에서 javascript, jquery, css를 이용한 프로젝트 개발, 운영, 배포 경험이 있습니다. 간결하고 명쾌한 코드를 작성하기 위해 노력합니다. 기록하는 것을 좋아하며 공부한 내용을 정리,작성하여 블로그를 통해 공유하고 있습니다.
 
 
 
@@ -18,6 +18,10 @@ title: About
 <br>
 
 ## 경력
+
+`2021.12 ~ ` | 윈윈랩 | 솔루션개발| 대리
+
+* 피부과 서비스 개발(관리자 및 고객 홈페이지)
 
 `2019.07 ~ 2021.09` | **(주)트라이코코리아** | IT팀 | 사원
 
@@ -39,7 +43,7 @@ title: About
 
 * **Framework**
 
-  ![Generic badge](https://img.shields.io/badge/-spring framwork-80c1ff?style=for-the-badge&logo=Spring&logoColor=black)![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=for-the-badge&logo=MyBatis&logoColor=black)![Generic badge](https://img.shields.io/badge/-bootstrap-80c1ff?style=for-the-badge&logo=bootstrap&logoColor=white)
+  ![Generic badge](https://img.shields.io/badge/-spring framwork(boot)-80c1ff?style=for-the-badge&logo=Spring&logoColor=black)![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=for-the-badge&logo=MyBatis&logoColor=black)![Generic badge](https://img.shields.io/badge/-bootstrap-80c1ff?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 * **Database**
 
