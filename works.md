@@ -29,7 +29,7 @@ title: Works
 * 병원 홈페이지
   * 소셜 로그인 연동(Kakao, Naver, Apple)
 
-📝[프로젝트 정리 및 회고](https://shxrecord.tistory.com/288)
+📝[프로젝트 회고](https://shxrecord.tistory.com/288)
 
 <br>
 
