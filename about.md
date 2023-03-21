@@ -42,9 +42,9 @@ title: About
 
   ![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
 
-* Infra
+* Cloud
 
-  ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
+  ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Amazon&logoColor=black)
 
 * Database
   
