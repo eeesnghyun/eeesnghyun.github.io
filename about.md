@@ -30,23 +30,12 @@ title: About
 
 ## 기술
 - - -
-- Back-end
   
-  ![Generic badge](https://img.shields.io/badge/-java-99ff99?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black)  
-  
-* Front-end
-  
-  ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
-
-* CI/CD
+  ![Generic badge](https://img.shields.io/badge/-java-99ff99?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
 
   ![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
 
-* Infra
-
   ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
-
-* Database
   
   ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
 
