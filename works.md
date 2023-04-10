@@ -10,8 +10,8 @@ title: Works
 <table>
     <th class="th-basic2"><i class="fas fa-check"></i></th>
 	<th>병원 홈페이지 및 어드민 시스템</th>
-    <th class="th-basic">2021.12 ~ 2023.01</th>    
-    <th>[📝](https://shxrecord.tistory.com/288 "프로젝트 회고")</th>
+    <th class="th-basic">2021.12 ~ 2023.01</th> 
+    <th><a href="https://shxrecord.tistory.com/288" title="프로젝트 회고">📝</a></th>   
 </table>
 
 ![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
@@ -28,6 +28,7 @@ title: Works
   * SSE 구현 : Webclient, WebFlux
 * 병원 홈페이지
   * 소셜 로그인 연동(Kakao, Naver, Apple)
+
 
 <br>
 
