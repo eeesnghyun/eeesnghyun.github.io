@@ -9,35 +9,36 @@ title: About
 
 ## 경력
 - - -
-`2021.12 ~ ` **(주)윈윈랩** - 솔루션개발팀
+`2021.12 ~ ` **(주)윈윈랩** - 솔루션개발팀 / 대리
 
-* 병원 관리 서비스 개발 및 유지보수
-  * 톡스앤필 강서점 -> 뷰티온클리닉 의원 런칭
-  * 관리자 서비스 개발 및 유지보수
-* 모바일앱 유지보수
+* 병원 관리 서비스 개발◾
+  * 톡스앤필 강서점 → 뷰티온클리닉 의원 및 기타 피부/성형외과 브랜드 런칭
+  * 병원 홈페이지 및 어드민 시스템 개발
+* 모바일앱 운영
 
-`2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀
+`2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀 / 사원
 
 * 차세대 급여 시스템 개발 : VB → Java/Spring Framework
-* 인사급여관리 시스템 운영 및 유지보수
+* 인사급여관리 시스템 운영
 
-`2018.01 ~ 2019.03` **(주)유비스** - IT팀
+`2018.01 ~ 2019.03` **(주)유비스** - IT팀 / 사원
 
-* 대덕전자 인사급여관리 시스템 운영 및 유지보수
-* 대덕전자 MES 모니터링 시스템 개발 및 유지보수
+* 대덕전자 인사급여관리 시스템 운영
+* 대덕전자 MES 모니터링 시스템 개발
 
 <br>
 
 ## 기술
-- - -
+- - -  
+![Generic badge](https://img.shields.io/badge/-java-99ff99?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black)
   
-  ![Generic badge](https://img.shields.io/badge/-java-99ff99?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
 
-  ![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
-
-  ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
   
-  ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
+
+![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
 
 <br>
 
