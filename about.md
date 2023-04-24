@@ -40,7 +40,7 @@ title: About
 
 `Cloud` ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
 
-`Third-party API` Soical Login API(Kakao, Naver, Appl), Firebase, Centrex LG U+ OpenAPI, NHN Notification
+`Third-party API` Social Login API(Kakao, Naver, Apple), Firebase, Centrex LG U+ OpenAPI, NHN Notification
 
 <br>
 
