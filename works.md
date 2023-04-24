@@ -14,21 +14,21 @@ title: Works
     <th><a href="https://shxrecord.tistory.com/288" title="프로젝트 회고">📝</a></th>   
 </table>
 
-![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-GitLab-654FF0?style=flat&logo=gitlab&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 * 공통
-  * 인프라 구성 : AWS EC2, RDS, Route53, Redis
-  * 서비스 DB 설계 : 병원, 고객, 시술, 예약 등
-  * 소스 형상 관리 및 배포 : GitLab, Jenkins
-  * Back-end CRUD 개발
-  * Front-end 공통 함수 정의
+  * 인프라 구축 : AWS EC2, RDS, Route53
+  * DB 설계 : 병원, 고객, 시술, 예약 등
+  * MVC 패턴 Back-end 개발, Front-end 공통 함수 정의
+  * 소스 형상 관리 및 배포 환경 구축 : GitLab, Jenkins
   * 모니터링 환경 구축 : Scouter
-* 관리자 시스템
-  * SSE 구현 : Webclient, WebFlux
+  * 서버 이중화에 따라 세션 클러스터링 적용 : Redis
+  * 주요 기능 : 병원 및 회원 관리, 예약
 * 병원 홈페이지
-  * 소셜 로그인 연동(Kakao, Naver, Apple)
-
+  * 소셜 로그인 연동 : Kakao, Naver, Apple  
+* 어드민 시스템
+  * 실시간 예약 알림 기능 구현을 위해 SSE 적용
 
 <br>
 
@@ -38,16 +38,16 @@ title: Works
     <th class="th-basic">2021.12 ~ 2023.01</th>    
 </table>
 
-![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JPA-80c1ff?style=flat&logo=jpa&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JPA-80c1ff?style=flat&logo=jpa&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-GitLab-654FF0?style=flat&logo=gitlab&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
-* 외부 API 서버의 분리(관리자 시스템 및 병원 홈페이지 공통 사용)
-  * 알림톡 기능 : NHN Kakao Bizmessage
-  * 푸시 기능(모바일, 웹 통합 FCM 서비스 개발) : Firebase Admin SDK
-  * SMS 송신 기능 : NHN Notification
+* Restful API 개발
+  * 알림톡 : NHN Kakao Bizmessage
+  * FCM 푸시 : Firebase Admin SDK
+  * SMS 송신 : NHN Notification
 * 스케줄러 개발 : 모바일 예약 푸시 알림, 병원 관리자 시스템 업데이트 알림 기능
-* 실시간 예약 확인 : SSE 서버 -> 브라우저 이벤트 푸시
-* 테스트 환경 : Swagger
+* 실시간 예약 알림 기능 개발 : 서버/클라이언트간(Flux/EventSource) 이벤트 구독 및 발행
+* 테스트 환경 구축 : Swagger
 
 ------
 
@@ -62,7 +62,7 @@ title: Works
     <th class="th-basic">2020.06 ~ 2021.09</th>    
 </table>
 
-![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-SVN-654FF0?style=flat&logo=subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 * 데이터 조회/저장 화면 구현
@@ -82,7 +82,7 @@ title: Works
     <th class="th-basic">2021.06 ~ 2021.07</th>    
 </table>
 
-![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=flat&logo=jquery&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-SVN-654FF0?style=flat&logo=subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 * 클라이언트 요구사항 분석 및 화면 설계
@@ -101,7 +101,7 @@ title: Works
     <th class="th-basic">2018.10 ~ 2018.12</th>    
 </table>
 
-![Generic badge](https://img.shields.io/badge/-ASP-99ff99?style=flat&logo=ASP&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MSSQL-FA5C5C?style=flat&logo=MSSQL&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-ASP-cce6ff?style=flat&logo=ASP&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MSSQL-FA5C5C?style=flat&logo=MSSQL&logoColor=white)
 
 * 그래프 라이브러리(FusionCharts)를 이용한 데이터 조회 화면 구현
 
@@ -113,7 +113,7 @@ title: Works
     <th class="th-basic">2018.04 ~ 2018.05</th>    
 </table>
 
-![Generic badge](https://img.shields.io/badge/-JAVA-99ff99?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringFramework-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=flat&logo=oracle&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-SVN-654FF0?style=flat&logo=subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 * 주 52시간 근무제 시행에 따라 근무시간관리 화면 구현

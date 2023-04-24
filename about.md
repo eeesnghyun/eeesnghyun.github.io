@@ -14,7 +14,7 @@ title: About
 * 병원 관리 서비스 개발
   * 톡스앤필 강서점 → 뷰티온클리닉 의원 및 기타 피부/성형외과 브랜드 런칭
   * 병원 홈페이지 및 어드민 시스템 개발
-* 모바일앱 운영
+* 모바일앱 운영 : 병원 홈페이지의 웹뷰 형태
 
 `2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀 / 사원
 
@@ -30,15 +30,31 @@ title: About
 
 ## 기술
 - - -  
-✔ ![Generic badge](https://img.shields.io/badge/-java-99ff99?style=for-the-badge&logo=java&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black)
-  
-✔ ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
+`Programming language : `
 
-✔ ![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
+  ![Generic badge](https://img.shields.io/badge/-java-cce6ff?style=for-the-badge&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
   
-✔ ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
+`Framework : `
 
-✔ ![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black)
+
+`Database : `
+
+![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
+
+`VCS & CI/CD : `
+
+![Generic badge](https://img.shields.io/badge/-Subversion-654FF0?style=for-the-badge&logo=Subversion&logoColor=white) ![Generic badge](https://img.shields.io/badge/-GIT-654FF0?style=for-the-badge&logo=Github&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=for-the-badge&logo=Jenkins&logoColor=white)
+
+
+`Cloud : `
+
+![Generic badge](https://img.shields.io/badge/-AWS-ffcc66?style=for-the-badge&logo=Oracle&logoColor=black)
+
+
+`Third-party API : `
+
+Soical Login API(Kakao, Naver, Appl), Firebase, Centrex LG U+ OpenAPI, NHN Notification
 
 <br>
 
