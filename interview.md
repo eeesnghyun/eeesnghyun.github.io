@@ -3,6 +3,7 @@ layout: post
 title: Interview
 date: 2023-06-25 14:03:36 +0530
 ---
+
 <!---------------------------------- Spring ---------------------------------->
 # ◼Spring
 <details markdown="1">
@@ -89,7 +90,7 @@ date: 2023-06-25 14:03:36 +0530
   * Method Area : 클래스 파일을 읽어 클래스에 대한 정보를 저장한다.
   * Heap Area : 인스턴스가 생성되는 공간. new 연산자로 생성된 객체와 배열을 저장한다.(전역변수 포함)
   * Stack Area : 기본 자료형(int, float, char, byte, boolean 등)에 해당하는 지역변수 및 매개변수의 데이터 값이 저장된다.
-  * PC Register : Threadㅏ 생성될 때마다 생기는 공간
+  * PC Register : Thread가 생성될 때마다 생기는 공간
   * Native Method Stack : 자바 이외의 다른 언어에서 제공되는 메소드의 정보가 저장된다.
 * **Execution Engine**
   * Class Loader가 Runtime Data Area에 불러온 바이트 코드를 실행한다.
@@ -144,6 +145,22 @@ date: 2023-06-25 14:03:36 +0530
 
 <details markdown="1">
   <summary>TDD</summary>
+</details>
+
+<details markdown="1">
+  <summary>모놀리식 아키텍처(Monolithic Architecture) vs 마이크로서비스 아키텍처(MicroService Architecture)</summary>
+* **모놀리식 아키텍처** : 소프트웨어의 모든 구성요소가 한 프로젝트에 통합 되어 있는 형태
+  * 장점
+    * 소규모 프로젝트에서는 합리적이고, 개발,빌드,배포,테스트가 용이하다.
+  * 단점
+    * 어플리케이션 구동시간이 늘어나고 빌드,배포 시간이 길어진다.
+* **마이크로서비스 아키텍처** : 하나의 큰 애플리케이션이 여러 개의 작은 서비스 유닛으로 쪼개진 형태
+  * 장점 
+    * 독립적인 서비스로 배포가 빠르고 모놀리식보다 가볍다.
+    * 각 서비스에 따라 개별적으로 서버를 나눌 수 있어 메모리 및 cpu 관리에 효율적이다.
+  * 단점 
+    * 서비스 간 호출 시 REST API 사용으로 인한 통신비용, Latency(지연시간)가 증가한다.
+    * 서비스가 분산되어 있어 트랜잭션 관리, 장애 추적 및 테스트 등이 쉽지 않다.
 </details>
 
 ## 자료구조
