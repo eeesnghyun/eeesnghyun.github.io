@@ -72,6 +72,18 @@ date: 2023-06-25 14:03:36 +0530
 * 비동기 : 병렬적으로 테스크를 수행한다. 서버로부터 응답을 대기하지 않고 다음 작업을 실행한다. 응답 대기 시간이 없고 다른 작업을 할 수 있기 때문에 자원을 효율적으로 사용할 수 있다.
 </details>
 
+<details markdown="1">
+  <summary>CSR & SSR</summary>
+* CSR(Client Side Rendering)
+  * 클라이언트측에서 <u>렌더링</u>이 일어나는 구조
+  * HTML, CSS와 모든 스크립트들을 한 번에 불러오기 때문에 로딩 속도가 SSR에 비해 느리다.
+* SSR(Server Side Rendering)
+  * 서버측에서 렌더링 작업을 마친 상태로 클라이언트에 전달하는 구조
+  * 매번 서버에 요청하기 때문에 서버 자원 사용이 많다.
+  
+✔ <u>렌더링</u> : HTML 파일을 받아 브라우저에 뿌려주는 과정
+</details>
+
 <br>
 <!---------------------------------- JAVA ---------------------------------->
 # ◼JAVA
@@ -111,6 +123,20 @@ date: 2023-06-25 14:03:36 +0530
 * private : 같은  클래스 내에서만 접근이 가능하다.
 * protected : 상속받은 클래스 또는 같은 패키지에서만 접근이 가능하다.
 * default : 같은 패키지에서만 접근이 가능하다.
+</details>
+
+<details markdown="1">
+  <summary>변수의 기본형/참조형</summary>
+* 기본형(Primitive type)
+  * 논리형 : boolean
+  * 문자형 : char
+  * 정수형 : byte, short, int, long
+  * 실수형 : float, double
+* 참조형(Reference type)
+  * 배열(Array)
+  * 열거(Enumeration)
+  * 클래스(Class)
+  * 인터페이스(Interface)
 </details>
 
 <br>
@@ -185,6 +211,37 @@ date: 2023-06-25 14:03:36 +0530
 </details>
 
 ## 네트워크
+<details markdown="1">
+  <summary>OSI 7계층</summary>
+* **물리 계층**
+  * 전기, 기계, 기능적인 특성을 이용해 데이터를 전송한다.
+  * 데이터 단위 : 0과 1로 이루어진 비트열
+
+* **데이터 링크 계층**
+  * 물리적인 연결을 통하여 인접한 두 장치 간의 신뢰성 있는 정보 전송을 담당(Point-To-Point 전송)
+  * 데이터 단위 : 프레임(Frame)
+
+* **네트워크 계층**
+  * 데이터를 목적지까지 안전하고 빠르게 전달하는 라우팅 기능을 맡고 있다.
+  * 데이터 단위 : 패킷(Packet)
+
+* **전송 계층**
+  * 종단 간 신뢰성 있고 정확한 데이터 전송을 담당한다.
+  * 데이터 단위 : 세그먼트(Segment)
+
+* **세션 계층**
+  * 통신 장치 간 상호작용 및 동기화 제공
+
+* **표현 계층**
+  * 코드 간의 번역을 담당하여 사용자 시스템에서 데이터의 형식상 차이를 다루는 부담을 응용 계층으로부터 덜어 준다.
+  * 인코딩이나 암호화 등의 동작이 이 계층에서 이루어진다.
+
+* **응용 계층**
+  * 응용 프로세스 간의 정보 교환을 담당
+  * HTTP, FTP, SMTP, POP3, IMAP, Telnet 등과 같은 프로토콜이 있다.
+  
+</details>
+
 
 
 <br>
@@ -246,4 +303,16 @@ date: 2023-06-25 14:03:36 +0530
   ```
 </details>
 
+<details markdown="1">
+  <summary>페이지 교체 알고리즘</summary>
+* **FIFO(First In First Out)** : 가장 먼저 메모리에 올라온 페이지를 가장 먼저 내보내는 알고리즘
+* **OPT(Optimal)** : 앞으로 가장 오랫동안 사용하지 않을 페이지를 교체하는 알고리즘
+* **LRU(Least Recently Used)** : 가장 오랫동안 사용하지 않은 페이지를 교체하는 알고리즘
+* **LFU(Least Frequently Used)** : 참조 횟수가 가장 적은 페이지를 교체하는 알고리즘
+* **MFU(Most Frequently User)** : 참조 횟수가 가장 많은 페이지를 교체하는 알고리즘
+</details>
 
+<details markdown="1">
+  <summary>탐색 알고리즘</summary>
+
+</details>
