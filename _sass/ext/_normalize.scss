@@ -46,6 +46,15 @@ summary {
     display: block;
 }
 
+details>summary {
+    border-bottom: 1px solid #b3b3b3;
+    line-height: 1.8em;    
+    font-size: 1.17em;
+    font-weight: bold;    
+    margin-block-end: 1em;
+    cursor: pointer;
+}
+
 //
 // 1. Correct `inline-block` display not defined in IE 8/9.
 // 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
