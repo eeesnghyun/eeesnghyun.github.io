@@ -9,12 +9,12 @@ title: About
 
 ## 경력
 - - -
-`2021.12 ~ ` **뷰티올** - 솔루션개발팀 / 대리
+`2021.12 ~ 재직중` **뷰티올** - 솔루션개발팀 / 대리
 
-* 병원 관리 서비스 개발
-  * 톡스앤필 강서점 → 뷰티온클리닉 의원 및 기타 피부/성형외과 브랜드 런칭
-  * 병원 홈페이지 및 어드민 시스템 개발
-* 모바일앱 운영 : 병원 홈페이지의 웹뷰 형태
+* 병원 브랜드 서비스 및 어드민 개발
+  * 피부/성형외과 브랜드 런칭을 위한 브랜드 홈페이지 개발(톡스앤필 강서점 → 뷰티온클리닉 강서점 이전 완료)
+  * 병원 홈페이지 운영을 위한 어드민 시스템 개발
+* [뷰티올 모바일앱](https://play.google.com/store/apps/details?id=kr.co.winwinlab.sopretty) 운영
 
 `2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀 / 사원
 
@@ -30,9 +30,9 @@ title: About
 
 ## 기술
 - - -  
-`Programming language` ![Generic badge](https://img.shields.io/badge/-java-cce6ff?style=for-the-badge&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black)
+`Programming language` ![Generic badge](https://img.shields.io/badge/-java-cce6ff?style=for-the-badge&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-javascript-cce6ff?style=for-the-badge&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-jquery-cce6ff?style=for-the-badge&logo=jquery&logoColor=black) ![Generic badge](https://img.shields.io/badge/-dart-cce6ff?style=for-the-badge&logo=dart&logoColor=black)
   
-`Framework` ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black)
+`Framework` ![Generic badge](https://img.shields.io/badge/-Spring-99ff99?style=for-the-badge&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Flutter-99ff99?style=for-the-badge&logo=flutter&logoColor=black)
 
 `Database` ![Generic badge](https://img.shields.io/badge/-Oracle-FA5C5C?style=for-the-badge&logo=Oracle&logoColor=black)  ![Generic badge](https://img.shields.io/badge/-Mysql-FA5C5C?style=for-the-badge&logo=MySQL&logoColor=black)
 

@@ -167,6 +167,12 @@ date: 2023-06-25 14:03:36 +0530
 
 <details markdown="1">
   <summary>방법론</summary>
+* 애자일 방법론(Agile)
+  * 
+* 폭포수 방법론(Waterfall)
+  * 개발 단계가 한단계씩 순차적으로 진행된다.
+  * 각 과정이 순차적으로 진행되기 때문에 이해하기가 쉽다.
+  * 개발 도중 요구사항이 변경되었을 경우, 수정사항을 반영해 처음부터 진행하게 된다.(시간, 비용)
 </details>
 
 <details markdown="1">
@@ -241,8 +247,6 @@ date: 2023-06-25 14:03:36 +0530
   * HTTP, FTP, SMTP, POP3, IMAP, Telnet 등과 같은 프로토콜이 있다.
   
 </details>
-
-
 
 <br>
 <!---------------------------------- Algorithm ---------------------------------->
@@ -327,3 +331,11 @@ date: 2023-06-25 14:03:36 +0530
   * 정렬된 리스트에서 찾고자 하는 값의 위치를 예측하여 탐색하는 방법.
 
 </details>
+
+
+
+isolation level
+application context
+3 way hanshake 
+maven
+[ Spring에서 싱글톤을 사용하는 이유 ]
