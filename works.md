@@ -162,7 +162,7 @@ title: Works
     <th class="th-basic">2023.06 ~ 2023.08</th>                      
     <th>
         <div style="display: flex;">
-            <a class="works-store" target="_blank" href="https://apps.apple.com/us/app/광명찾자/id6451822761"><img src='/assets/img/profile/appstore-m.png' width=30></a>
+            <a class="works-store" target="_blank" href="https://apps.apple.com/kr/app/광명찾자/id6451822761"><img src='/assets/img/profile/appstore-m.png' width=30></a>
             <a class="works-store" target="_blank" href="https://play.google.com/store/apps/details?id=com.app.findgwangmyeong"><img src='/assets/img/profile/playstore-m.png' width=30></a>
         </div>
     </th>

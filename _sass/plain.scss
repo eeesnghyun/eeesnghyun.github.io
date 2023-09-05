@@ -574,3 +574,17 @@ blockquote {
     color: $linkColor;
   }
 }
+
+.dark {
+  .works-position {  
+    .fas {
+      margin-right: 15px;
+      color: #fff;
+    }
+  
+    span {
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
