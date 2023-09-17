@@ -176,6 +176,6 @@ title: Works
 </span>
 
 * 공공데이터 포탈 API 연동 및 데이터 가공 
-* Thrid-party API 연동 : Naver Cloud Map, Geocode, Naver news
+* Third-party API 연동 : Naver Cloud Map, Geocode, Naver news
 * 메인 화면 개발
 * Admob 연동
