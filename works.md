@@ -15,7 +15,7 @@ title: Works
 </table>
 
 ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
-![Generic badge](https://img.shields.io/badge/-GitLab-654FF0?style=flat&logo=gitlab&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
+![Generic badge](https://img.shields.io/badge/-Git-654FF0?style=flat&logo=git&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 <span class="works-position">
     <i class="fas fa-check"></i>
@@ -23,17 +23,19 @@ title: Works
 </span>
 
 * 프로젝트 환경 구축 
-  * 인프라 구축 : AWS EC2, RDS, S3, Route53
+  * 인프라 구축 : AWS EC2, RDS, S3, Route53, Certificate Manager
   * DB 설계 : 병원, 고객, 시술, 예약 등
   * DB 이중화 : Aurora Cluster를 통한 Reader/Writer 분리
   * MVC 패턴 Back-end 개발, Front-end 공통 함수 정의
-  * 소스 형상 관리 및 배포 환경 구축 : GitLab, Jenkins
+  * 소스 형상 관리 및 배포 환경 구축 : Git, Jenkins
   * 모니터링 환경 구축 : Scouter
   * 서버 이중화에 따라 세션 클러스터링 적용 : Redis
-  * 주요 기능 : 병원 및 회원 관리, 예약
 * 병원 홈페이지
   * 소셜 로그인 연동 : Kakao, Naver, Apple  
+  * 예약 및 알림 기능 개발
 * 어드민 시스템
+  * 병원 및 고객 관리 기능 개발
+  * 시술 및 예약 관리 기능 개발
   * 실시간 예약 알림 기능 구현을 위해 SSE 적용
 
 <br>
@@ -45,7 +47,7 @@ title: Works
 </table>
 
 ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JPA-80c1ff?style=flat&logo=jpa&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
-![Generic badge](https://img.shields.io/badge/-GitLab-654FF0?style=flat&logo=gitlab&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
+![Generic badge](https://img.shields.io/badge/-Git-654FF0?style=flat&logo=git&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white) 
 
 <span class="works-position">
     <i class="fas fa-check"></i>
