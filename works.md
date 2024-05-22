@@ -20,7 +20,7 @@ title: Works
 ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Javascript-cce6ff?style=flat&logo=javascript&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JSP-cce6ff?style=flat&logo=jsp&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MyBatis-80c1ff?style=flat&logo=mybatis&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MySQL-FA5C5C?style=flat&logo=mysql&logoColor=white)
 ![Generic badge](https://img.shields.io/badge/-Git-654FF0?style=flat&logo=git&logoColor=white) ![Generic badge](https://img.shields.io/badge/-Jenkins-654FF0?style=flat&logo=JENKINS&logoColor=white)
 
-- 인프라 구축 : AWS를 활용하여 인프라 구축(EC2, RDS, Route53, Certificate Manager)
+- 인프라 구축 : AWS EC2, RDS, Route53, Certificate Manager활용
 - DB 설계 : 어드민/병원 홈페이지의 DB 설계(주요 테이블 - 병원, 고객, 시술, 예약 등)
 - DB 이중화 : Aurora Cluster를 사용하여 이중화 구성 및 리더 인스턴스/라이터 인스턴스 분리를 통해 데이터베이스 부하 분산
 - MVC 패턴 Back-end 개발, Front-end 공통 함수 정의
