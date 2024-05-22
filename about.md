@@ -10,7 +10,8 @@ title: About
 `2021.12 ~ 재직중` **뷰티올** - 솔루션개발팀 / 대리
 
 - 피부과 예약 서비스 개발 : 톡스앤필 강서점 → 뷰티온클리닉 강서점 이전 완료, 외 17개 병원 입점 완료
-- 어드민 시스템 & Third party API 개발 : 백/프론트엔드 아키텍쳐 설계 및 개발
+- 어드민 시스템 개발 및 Third party API 연동
+- 프로젝트 아키텍쳐 설계 및 개발
 - [뷰티올 모바일앱](https://play.google.com/store/apps/details?id=kr.co.winwinlab.sopretty) 운영
 
 `2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀 / 사원
