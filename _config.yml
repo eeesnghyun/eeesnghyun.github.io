@@ -1,16 +1,13 @@
 #encoding: UTF-8
-title: Your awesome title
+title: 포트폴리오
 #author: Seung-Hyun Lee
 email: szhyun2002@gmail.com
 inhabit: Seoul, Korea
 blog: https://shxrecord.tistory.com
 github: https://github.com/eeesnghyun
 description: > # this means to ignore newlines until "show_exerpts:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  백엔드 개발자 이승현입니다.
 show_excerpts: false # set to true to show excerpts on the homepage
-
 #baseurl: "/gitweb-test"
 
 # Minima date format
@@ -19,7 +16,7 @@ sass:
   sass_dir: _sass
 plainwhite:
   name: 이승현
-  tagline: Seung-Hyun Lee
+  tagline:
   date_format: "%b %-d, %Y"
   sitemap: true # set to true to generate sitemap.xml content
   navigation:
