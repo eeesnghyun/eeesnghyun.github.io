@@ -143,30 +143,32 @@ title: Works
 
 <table>    
     <th class="th-basic2"><i class="fas fa-book"></i></th>
-    <th>우리의교회</th>
-    <th class="th-basic">2024.01 ~ 2023.03</th>                      
+    <th>농실농실 - 실시간 농산물 경매와 정산 정보앱</th>
+    <th class="th-basic">2024.05 ~ 2024.08</th>                      
     <th>
         <div style="display: flex;">
-            <a class="works-store" target="_blank" href="https://apps.apple.com/kr/app/우리의교회-around-church/id6475718083"><img src='/assets/img/profile/appstore-m.png' width=30></a>
-            <a class="works-store" target="_blank" href="https://play.google.com/store/apps/details?id=com.app.ourchurch"><img src='/assets/img/profile/playstore-m.png' width=30></a>
+            <a class="works-store" target="_blank" href="https://apps.apple.com/kr/app/%EB%86%8D%EC%8B%A4%EB%86%8D%EC%8B%A4-%EC%8B%A4%EC%8B%9C%EA%B0%84-%EB%86%8D%EC%82%B0%EB%AC%BC-%EA%B2%BD%EB%A7%A4%EC%99%80-%EC%A0%95%EC%82%B0-%EC%A0%95%EB%B3%B4%EC%95%B1/id6502695879"><img src='/assets/img/profile/appstore-m.png' width=30></a>
+            <a class="works-store" target="_blank" href="https://play.google.com/store/apps/details?id=com.app.nongsil"><img src='/assets/img/profile/playstore-m.png' width=30></a>
         </div>
     </th>
 </table>
 <span class="works-position">
     <i class="fas fa-check"></i>
-    <span>담당 포지션</span> : 기획, 서버/백엔드
+    <span>담당 포지션</span> : 서버/백엔드, 앱개발
 </span>
 
-![Generic badge](https://img.shields.io/badge/-Next.js-99ff99?style=flat&logo=Next.js&logoColor=black) ![Generic badge](https://img.shields.io/badge/-MongoDB-FA5C5C?style=flat&logo=MongoDB&logoColor=white)
+![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-Flutter-99ff99?style=flat&logo=Flutter&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Dart-cce6ff?style=flat&logo=Dart&logoColor=black)
 
-- 어드민 시스템 개발 : 교회소개, 예배/성도/주보 등록, 관리자 설정
-- Third-party API 연동 : Firebase Cloud Messaging
+- 공공데이터 포탈 API 연동 및 데이터 가공, 모바일 앱 화면 구현
+- RestAPI 개발(웹, 모바일앱 제공)
+- Third-party API 연동 : Kakao Login API, Firebase Cloud Message
 
 <br>
 
 <table>    
     <th class="th-basic2"><i class="fas fa-book"></i></th>
-    <th>광명찾자</th>
+    <th>광명찾자 - 광명&성남 아파트 실거래가 조회앱</th>
     <th class="th-basic">2023.06 ~ 2023.08</th>                      
     <th>
         <div style="display: flex;">
@@ -177,9 +179,10 @@ title: Works
 </table>
 <span class="works-position">
     <i class="fas fa-check"></i>
-    <span>담당 포지션</span> : 기획, 서버/백엔드
+    <span>담당 포지션</span> : 서버/백엔드, 앱개발
 </span>
 
+![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black)
 ![Generic badge](https://img.shields.io/badge/-Flutter-99ff99?style=flat&logo=Flutter&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Dart-cce6ff?style=flat&logo=Dart&logoColor=black)
 
 - 공공데이터 포탈 API 연동 및 데이터 가공
