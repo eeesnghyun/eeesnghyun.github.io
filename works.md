@@ -143,6 +143,31 @@ title: Works
 
 <table>    
     <th class="th-basic2"><i class="fas fa-book"></i></th>
+    <th>우리가 쓰려고 만든 공유 가계부 :: 우리</th>
+    <th class="th-basic">2025.01 ~ 2025.02</th>                      
+    <th>
+        <div style="display: flex;">
+            <a class="works-store" target="_blank" href="https://apps.apple.com/kr/app/%EC%9A%B0%EB%A6%AC%EA%B0%80-%EC%93%B0%EB%A0%A4%EA%B3%A0-%EB%A7%8C%EB%93%A0-%EA%B3%B5%EC%9C%A0-%EA%B0%80%EA%B3%84%EB%B6%80-%EC%9A%B0%EB%A6%AC/id6741584456"><img src='/assets/img/profile/appstore-m.png' width=30></a>
+            <a class="works-store" target="_blank" href="https://play.google.com/store/apps/details?id=com.app.woogong"><img src='/assets/img/profile/playstore-m.png' width=30></a>
+        </div>
+    </th>
+</table>
+<span class="works-position">
+    <i class="fas fa-check"></i>
+    <span>담당 포지션</span> : 서버/백엔드, 앱개발
+</span>
+
+![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black)
+![Generic badge](https://img.shields.io/badge/-Flutter-99ff99?style=flat&logo=Flutter&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Dart-cce6ff?style=flat&logo=Dart&logoColor=black)
+
+- DB 설계 및 RestAPI 개발
+- 프레임워크 구성 및 서비스 로직 구현(Spring Boot, Flutter)
+- Third-party API 연동 : Kakao Login API, Firebase Cloud Message
+
+<br>
+
+<table>    
+    <th class="th-basic2"><i class="fas fa-book"></i></th>
     <th>농실농실 - 실시간 농산물 경매와 정산 정보앱</th>
     <th class="th-basic">2024.05 ~ 2024.08</th>                      
     <th>
@@ -160,6 +185,7 @@ title: Works
 ![Generic badge](https://img.shields.io/badge/-SpringBoot-99ff99?style=flat&logo=spring&logoColor=black) ![Generic badge](https://img.shields.io/badge/-JAVA-cce6ff?style=flat&logo=java&logoColor=black)
 ![Generic badge](https://img.shields.io/badge/-Flutter-99ff99?style=flat&logo=Flutter&logoColor=black) ![Generic badge](https://img.shields.io/badge/-Dart-cce6ff?style=flat&logo=Dart&logoColor=black)
 
-- 공공데이터 포탈 API 연동 및 데이터 가공, 모바일 앱 화면 구현
+- 공공데이터 포탈 API 연동 및 데이터 가공
 - RestAPI 개발(웹, 모바일앱 제공)
+- 프레임워크 구성 및 서비스 로직 구현(Spring Boot, Flutter)
 - Third-party API 연동 : Kakao Login API, Firebase Cloud Message
