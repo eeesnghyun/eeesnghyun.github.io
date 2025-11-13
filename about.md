@@ -24,7 +24,7 @@ title: About
 - Spring Boot 기반 백엔드 아키텍처 및 AWS 인프라 설계/구축, CI/CD 자동 배포 환경 구성
 - [뷰티올 모바일앱](https://play.google.com/store/apps/details?id=kr.co.winwinlab.sopretty) 개발 및 운영: 신규 기능 릴리즈
 
-`2019.07 ~ 2021.09` **(주)트라이코코리아** - IT팀 / 사원
+`2019.07 ~ 2021.09` **(주)비스트라코리아** - IT팀 / 사원
 
 - 차세대 급여 서비스 개발 : VB -> Java/Spring Boot
 - 인사/급여관리 서비스 개발 및 운영
